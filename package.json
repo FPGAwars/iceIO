@@ -1,0 +1,27 @@
+{
+  "name": "iceio",
+  "version": "0.1.0",
+  "description": " Blocks for managing FPGA IO-pins ",
+  "header": "",
+  "footer": "https://github.com/FPGAwars/icestudio-wiki/raw/main/Logos/fgpawars-banner.svg",
+  "wiki": "https://github.com/FPGAwars/iceIO/wiki",
+  "keywords": ["io","pin",""],
+  "license": "LGPL-3.0",
+  "authors": [
+    {
+      "name": "todo",
+      "url": "https://github.com/cavearr"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "todo",
+      "url": "https://github.com/Obijuan"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "branch": "main",
+    "url": "https://github.com/FPGAwars/iceIO"
+  }
+}
