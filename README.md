@@ -24,6 +24,11 @@ For installing and using this colection in Icestudio follow these steps:
 * Select the collection: *Select > Collection*
 
 
+## Blocks
+* **InOut**
+  * **ICE40**
+    * InOut-right
+    * InOut
 
 
 ## Authors
