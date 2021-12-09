@@ -9,13 +9,17 @@
   "license": "LGPL-3.0",
   "authors": [
     {
-      "name": "todo",
-      "url": "https://github.com/cavearr"
+      "name": "Salvador E. Tropea",
+      "url": "https://github.com/set-soft"
     }
   ],
   "contributors": [
     {
-      "name": "todo",
+      "name": "Fernando Mosquera",
+      "url": "https://github.com/benitoss"
+    },
+    {
+      "name": "Juan Gonzalez (Obijuan)",
       "url": "https://github.com/Obijuan"
     }
   ],

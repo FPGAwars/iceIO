@@ -31,16 +31,20 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Blocks
 * **InOut**
+  * **ECP5**
+    * InOut
+    * InOut_right
   * **ICE40**
     * InOut-right
     * InOut
 
 
 ## Authors
-* [todo](https://github.com/cavearr)
+* [Salvador E. Tropea](https://github.com/set-soft)
 
 ## Contributors
-* [todo](https://github.com/Obijuan)
+* [Fernando Mosquera](https://github.com/benitoss)
+* [Juan Gonzalez (Obijuan)](https://github.com/Obijuan)
 
 
 -------
