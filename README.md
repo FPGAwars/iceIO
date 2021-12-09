@@ -23,7 +23,17 @@ For installing and using this colection in Icestudio follow these steps:
 * Install the collection: *Tools > Collections > Add*
 * Select the collection: *Select > Collection*
 
+## Translations
+| Language | Locale | Translated strings |
+|----------|--------|--------------------|
+| English  |  en    | ![](https://progress-bar.dev/100) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
 
+## Blocks
+* **InOut**
+  * **ICE40**
+    * InOut-right
+    * InOut
 
 
 ## Authors

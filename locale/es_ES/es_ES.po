@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-08-29 17:50+0200\n"
+"POT-Creation-Date: 2021-12-08 19:57+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,3 +14,26 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
+#: translation.js:10 translation.js:14
+msgid "InOut"
+msgstr "InOut"
+
+#: translation.js:11
+msgid "ICE40"
+msgstr "ICE40"
+
+#: translation.js:12
+msgid "InOut-right"
+msgstr "InOut-right"
+
+#: translation.js:13
+msgid ""
+"InOut-Right_ICE40:  InOut block, with the pin on the right side, for ICE40 "
+"FPGA Family"
+msgstr ""
+"InOut-Right_ICE40: Bloque de Entrada/salida, con el pin en el lado derecho, "
+"para la familia ICE40 de FPGAs"
+
+#: translation.js:15
+msgid "InOut_ICE40:  Input-Output block for the ICE40 FPGA Family"
+msgstr "InOut_ICE40:  Bloque de Entrada/Salida para la familia ICE40 de FPGAs"
