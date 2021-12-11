@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-08 19:57+0100\n"
+"POT-Creation-Date: 2021-12-11 18:10+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,19 +14,41 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
-#: translation.js:10 translation.js:14
+#: translation.js:10 translation.js:15 translation.js:19
 msgid "InOut"
 msgstr "InOut"
 
 #: translation.js:11
+msgid "ECP5"
+msgstr ""
+
+#: translation.js:12
 msgid "ICE40"
 msgstr "ICE40"
 
-#: translation.js:12
+#: translation.js:13 translation.js:17
 msgid "InOut-right"
 msgstr "InOut-right"
 
-#: translation.js:13
+#: translation.js:14
+#, fuzzy
+#| msgid ""
+#| "InOut-Right_ICE40:  InOut block, with the pin on the right side, for "
+#| "ICE40 FPGA Family"
+msgid ""
+"InOut-Right_ECP5:  InOut block, with the pin on the right side, for ECP5 "
+"FPGA Family"
+msgstr ""
+"InOut-Right_ICE40: Bloque de Entrada/salida, con el pin en el lado derecho, "
+"para la familia ICE40 de FPGAs"
+
+#: translation.js:16
+#, fuzzy
+#| msgid "InOut_ICE40:  Input-Output block for the ICE40 FPGA Family"
+msgid "InOut_ECP5:  Input-Output block for the ECP5 FPGA Family"
+msgstr "InOut_ICE40:  Bloque de Entrada/Salida para la familia ICE40 de FPGAs"
+
+#: translation.js:18
 msgid ""
 "InOut-Right_ICE40:  InOut block, with the pin on the right side, for ICE40 "
 "FPGA Family"
@@ -34,6 +56,307 @@ msgstr ""
 "InOut-Right_ICE40: Bloque de Entrada/salida, con el pin en el lado derecho, "
 "para la familia ICE40 de FPGAs"
 
-#: translation.js:15
+#: translation.js:20
 msgid "InOut_ICE40:  Input-Output block for the ICE40 FPGA Family"
 msgstr "InOut_ICE40:  Bloque de Entrada/Salida para la familia ICE40 de FPGAs"
+
+#: translation.js:21
+msgid "TESTs"
+msgstr ""
+
+#: translation.js:22 translation.js:74
+msgid "00-Index"
+msgstr ""
+
+#: translation.js:23
+msgid "# INDEX: IceIO Collection"
+msgstr ""
+
+#: translation.js:24
+#, fuzzy
+#| msgid "InOut"
+msgid "## InOut"
+msgstr "InOut"
+
+#: translation.js:25
+#, fuzzy
+#| msgid "ICE40"
+msgid "### ICE40"
+msgstr "ICE40"
+
+#: translation.js:26
+msgid "### ECP5"
+msgstr ""
+
+#: translation.js:27
+#, fuzzy
+#| msgid "InOut"
+msgid "InOut-ES"
+msgstr "InOut"
+
+#: translation.js:28 translation.js:73
+msgid "02-pin-entrada-test-2"
+msgstr ""
+
+#: translation.js:29
+msgid ""
+"Detección de pulsación. Emite un tic cada vez que se aprieta el pulsador"
+msgstr ""
+
+#: translation.js:30
+msgid ""
+"Biestable de datos (Tipo D). Cuando se recibe un tic por load se captura el "
+"dato"
+msgstr ""
+
+#: translation.js:31
+msgid "Un bit constante a 1"
+msgstr ""
+
+#: translation.js:32
+msgid "Bloque para entrada-salida (PIO)"
+msgstr ""
+
+#: translation.js:33
+msgid "Un bit constante a 0"
+msgstr ""
+
+#: translation.js:34
+msgid ""
+"Pin de entrada  \n"
+"(Configurado manualmente)"
+msgstr ""
+
+#: translation.js:35
+msgid "**Bloque InOut**"
+msgstr ""
+
+#: translation.js:36
+msgid ""
+"Configurar  \n"
+"como entrada"
+msgstr ""
+
+#: translation.js:37
+msgid ""
+"Entrada dout  \n"
+"no conectada"
+msgstr ""
+
+#: translation.js:38
+msgid ""
+"## Ejemplo: Configuración manual de un pin de entrada\n"
+"\n"
+"Ejemplo de uso del bloque InOut para configurar manualmente el pin D13  \n"
+"como entrada. El ejemplo simplemente captura un 1 en un biestable y  \n"
+"lo muestra en LED0 cuando se aprieta un pulsador externo conectado a D13"
+msgstr ""
+
+#: translation.js:39
+msgid "**Pulsador-tic**"
+msgstr ""
+
+#: translation.js:40
+msgid "04-pin-salida-test-2"
+msgstr ""
+
+#: translation.js:41
+msgid ""
+"Corazon genérico para bombear bits a la frecuencia fijada en Hz (por defecto "
+"1Hz)"
+msgstr ""
+
+#: translation.js:42
+msgid "Bloque inout, con conexión de pin por la derecha"
+msgstr ""
+
+#: translation.js:43
+msgid ""
+"Pin de salida  \n"
+"(Configurado manualmente)"
+msgstr ""
+
+#: translation.js:44
+msgid "**LED Externo**"
+msgstr ""
+
+#: translation.js:45
+msgid "No usado"
+msgstr ""
+
+#: translation.js:46
+msgid "Habilitar salida"
+msgstr ""
+
+#: translation.js:47
+msgid ""
+"Los bits del corazón  \n"
+"salen por D13"
+msgstr ""
+
+#: translation.js:48
+#, fuzzy
+#| msgid "InOut-right"
+msgid "**Bloque InOut-right**"
+msgstr "InOut-right"
+
+#: translation.js:49
+msgid ""
+"## Ejemplo: Configuración manual de un pin de salida\n"
+"\n"
+"Ejemplo de uso del bloque InOut para configurar manualmente el pin D13  \n"
+"como salida. El ejemplo hace parpadear un LED externo conectado a  \n"
+"D13"
+msgstr ""
+
+#: translation.js:50
+msgid "05-inout-test-02"
+msgstr ""
+
+#: translation.js:51
+msgid ""
+"Temporizador en milisegundos. La señal p está activa durante el tiempo "
+"indicado. Por tic se emite un tic al finalizar"
+msgstr ""
+
+#: translation.js:52
+msgid ""
+"Circuito de  \n"
+"salida"
+msgstr ""
+
+#: translation.js:53
+msgid ""
+"Configuración manual  \n"
+"del pin de entrada/salida  \n"
+"mediante un switch externo  \n"
+"**0**: Entrada  \n"
+"**1**: Salida"
+msgstr ""
+
+#: translation.js:54
+msgid "Circuito de entrada"
+msgstr ""
+
+#: translation.js:55
+msgid "**Pin de entrada/Salida**"
+msgstr ""
+
+#: translation.js:56
+msgid ""
+"LED interno para comprobar  \n"
+"que la entrada funciona"
+msgstr ""
+
+#: translation.js:57
+msgid ""
+"## Ejemplo: Configuración de un pin para entrada/salida\n"
+"\n"
+"El pin D13 se configura como entrada o salida mediante un interruptor  \n"
+"externo. Cuando se configura como salida se emite una señal cuadrada  \n"
+"para hacer parpadear un LED externo. Cuando se configur como entrada  \n"
+"se emite un pulso al apretar el pulsador y se enciende el LED7"
+msgstr ""
+
+#: translation.js:58
+msgid ""
+"**Arranque del**  \n"
+"**temporizador**"
+msgstr ""
+
+#: translation.js:59
+msgid "**Salida de pulso**"
+msgstr ""
+
+#: translation.js:60
+msgid "**Salida de tic**"
+msgstr ""
+
+#: translation.js:61
+msgid ""
+"**Parametro del timer**  \n"
+"milisegundos a esperar"
+msgstr ""
+
+#: translation.js:62
+msgid "06-inout-test-03"
+msgstr ""
+
+#: translation.js:63
+msgid "Puerta AND"
+msgstr ""
+
+#: translation.js:64
+msgid "Puerta NOT"
+msgstr ""
+
+#: translation.js:65
+msgid ""
+"Cuando es un pin de salida  \n"
+"se deshabilita la entrada"
+msgstr ""
+
+#: translation.js:66
+msgid ""
+"Si el pin es de salida,  \n"
+"al circuito de entrada  \n"
+"le llega siempre 0  \n"
+"Si el pin es de entrada  \n"
+"llega lo que haya por  \n"
+"la entrada"
+msgstr ""
+
+#: translation.js:67
+msgid ""
+"## Ejemplo: Configuración de un pin para entrada/salida. Versión 2\n"
+"\n"
+"El pin D13 se configura como entrada o salida mediante un interruptor  \n"
+"externo. Cuando se configura como salida se emite una señal cuadrada  \n"
+"para hacer parpadear un LED externo. Cuando se configur como entrada  \n"
+"se emite un pulso al apretar el pulsador y se enciende el LED7  \n"
+"\n"
+"Cuando el pin está configurado como salida, al circuito de entrada  \n"
+"le llega un 0"
+msgstr ""
+
+#: translation.js:68
+msgid "07-inout-dos-circuitos"
+msgstr ""
+
+#: translation.js:69
+msgid ""
+"### CIRCUITO 1  \n"
+"\n"
+"Según la configuración del pin D13:\n"
+"\n"
+"**Entrada**: Saca por LED7 lo recibido  \n"
+"**Salida**: Envía señal de 10Hz por pin\n"
+msgstr ""
+
+#: translation.js:70
+msgid ""
+"### CIRCUITO 2  \n"
+"\n"
+"Según la configuración del pin D13:\n"
+"\n"
+"**Entrada**: Saca por LED7 lo recibido  \n"
+"**Salida**: Envía señal de 4Hz por pin\n"
+msgstr ""
+
+#: translation.js:71
+msgid ""
+"**Establecer sentido**  \n"
+"**de la comunicación**  \n"
+"1: Circuito 1 ---> Circuito 2  \n"
+"0: Circuito 2 ---> Circuito 1  "
+msgstr ""
+
+#: translation.js:72
+msgid ""
+"## Ejemplo: Pin bidireccional entre dos circuitos\n"
+"\n"
+"Comunicación entre dos circuitos usando un cable externo.  \n"
+"Mediante un interruptor externo se configura el sentido de  \n"
+"la comunicación: del circuito 1 al 2 ó del 2 al 1\n"
+"\n"
+msgstr ""

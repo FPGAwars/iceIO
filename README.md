@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/8) |
 
 ## Blocks
 * **InOut**
@@ -37,12 +37,17 @@ For installing and using this colection in Icestudio follow these steps:
     * InOut
   * **ICE40**
     * InOut-right
+    * InOut-x2
     * InOut
 
 ## Examples
+* 00-Index
+* **01-Input-config**
+  * **Alhambra-II**
+    * 01-button-LED
+    * 02-buttons-LEDs-x2
 * **TESTs**
   * **InOut-ES**
-    * 02-pin-entrada-test-2
     * 04-pin-salida-test-2
     * 05-inout-test-02
     * 06-inout-test-03
