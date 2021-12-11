@@ -53,6 +53,7 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Contributors
 * [Fernando Mosquera](https://github.com/benitoss)
+* [Joaquim](https://github.com/jojo535275?tab=repositories)
 * [Juan Gonzalez (Obijuan)](https://github.com/Obijuan)
 
 
