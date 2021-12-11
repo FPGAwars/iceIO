@@ -38,6 +38,13 @@ For installing and using this colection in Icestudio follow these steps:
     * InOut-right
     * InOut
 
+## Examples
+* **Pines-ES**
+  * 02-pin-entrada-test-2
+  * 04-pin-salida-test-2
+  * 05-inout-test-02
+  * 06-inout-test-03
+  * 07-inout-dos-circuitos
 
 ## Authors
 * [Salvador E. Tropea](https://github.com/set-soft)
