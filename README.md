@@ -40,19 +40,19 @@ For installing and using this colection in Icestudio follow these steps:
     * InOut
 
 ## Examples
-* **Pines-ES**
-  * 02-pin-entrada-test-2
-  * 04-pin-salida-test-2
-  * 05-inout-test-02
-  * 06-inout-test-03
-  * 07-inout-dos-circuitos
+* **TESTs**
+  * **InOut-ES**
+    * 02-pin-entrada-test-2
+    * 04-pin-salida-test-2
+    * 05-inout-test-02
+    * 06-inout-test-03
+    * 07-inout-dos-circuitos
 
 ## Authors
 * [Salvador E. Tropea](https://github.com/set-soft)
 
 ## Contributors
 * [Fernando Mosquera](https://github.com/benitoss)
-* [Joaquim](https://github.com/jojo535275)
 * [Juan Gonzalez (Obijuan)](https://github.com/Obijuan)
 
 
