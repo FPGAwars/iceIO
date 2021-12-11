@@ -1,3 +1,4 @@
+[![](https://github.com/FPGAwars/iceIO/raw/main/wiki/Logo/iceIO-collection-github.png)](https://github.com/FPGAwars/iceIO/wiki)
 
 
 # iceio Collection
@@ -32,8 +33,8 @@ For installing and using this colection in Icestudio follow these steps:
 ## Blocks
 * **InOut**
   * **ECP5**
+    * InOut-right
     * InOut
-    * InOut_right
   * **ICE40**
     * InOut-right
     * InOut
@@ -51,6 +52,7 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Contributors
 * [Fernando Mosquera](https://github.com/benitoss)
+* [Joaquim](https://github.com/jojo535275)
 * [Juan Gonzalez (Obijuan)](https://github.com/Obijuan)
 
 

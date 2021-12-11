@@ -2,7 +2,7 @@
   "name": "iceio",
   "version": "0.1.0",
   "description": " Blocks for managing FPGA IO-pins ",
-  "header": "",
+  "header": "https://github.com/FPGAwars/iceIO/raw/main/wiki/Logo/iceIO-collection-github.png",
   "footer": "https://github.com/FPGAwars/icestudio-wiki/raw/main/Logos/fgpawars-banner.svg",
   "wiki": "https://github.com/FPGAwars/iceIO/wiki",
   "keywords": ["io","pin",""],
