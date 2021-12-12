@@ -130,7 +130,7 @@ msgstr "01-button-LED"
 
 #: translation.js:37
 msgid "Constant bit 0"
-msgstr ""
+msgstr "Bit 0 constante"
 
 #: translation.js:38
 msgid ""
@@ -147,6 +147,8 @@ msgid ""
 "Configure as  \n"
 "an input"
 msgstr ""
+"Configurar como  \n"
+"una entrada"
 
 #: translation.js:41
 msgid ""
@@ -190,7 +192,7 @@ msgstr "01-Blinking-LED"
 
 #: translation.js:48
 msgid "Constant bit 1"
-msgstr ""
+msgstr "Bit 1 constante"
 
 #: translation.js:49
 msgid ""
@@ -206,19 +208,19 @@ msgstr ""
 
 #: translation.js:51
 msgid "Comp2-24bit: Comparator of two 24-bit numbers"
-msgstr ""
+msgstr "Comp2-24bit: Comparador de dos números de 24-bits"
 
 #: translation.js:52
 msgid "Comp2-8bit: Comparator of two 8-bit numbers"
-msgstr ""
+msgstr "Comp2-8bit: Comparador de dos números de 8 bits"
 
 #: translation.js:53
 msgid "Comp2-4bit: Comparator of two 4-bit numbers"
-msgstr ""
+msgstr "Comp2-4bit: Comparador de dos números de 4 bits"
 
 #: translation.js:54
 msgid "Comp2-1bit: Comparator of two 1-bit numbers"
-msgstr ""
+msgstr "Comp2-1bit: Comparador de dos números de 1 bit"
 
 #: translation.js:55
 msgid "XOR gate: two bits input xor gate"
@@ -271,7 +273,7 @@ msgstr ""
 
 #: translation.js:66
 msgid "DFF-rst-x04: Three D flip-flops in paralell with reset"
-msgstr ""
+msgstr "DFF-rst-x04: Tres biestables D en paralelo con reset"
 
 #: translation.js:67
 msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
@@ -280,10 +282,11 @@ msgstr "Bus4-Join-all: Juntar todos los cables en un bus de 4-bits"
 #: translation.js:68
 msgid "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0"
 msgstr ""
+"DFF-rst-x01: Biestable D con entrada de reset. Cuando rst=1, el DFF es 0"
 
 #: translation.js:69
 msgid "D Flip-flop (verilog implementation)"
-msgstr ""
+msgstr "Biestable D (Implementación en verilog)"
 
 #: translation.js:70
 msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
@@ -356,7 +359,7 @@ msgstr "Bus24-Join-8-16: Juntar los dos buses en uno de 24-bits"
 
 #: translation.js:86
 msgid "Counter-x01: 1-bit counter"
-msgstr ""
+msgstr "Counter-x01: Contador de 1 bit"
 
 #: translation.js:87
 msgid "Reg: 1-Bit register"
@@ -385,6 +388,8 @@ msgid ""
 "Configure as  \n"
 "an output"
 msgstr ""
+"Configurar como  \n"
+"una salida"
 
 #: translation.js:93
 msgid ""
@@ -434,7 +439,7 @@ msgstr ""
 
 #: translation.js:102
 msgid "Data input"
-msgstr ""
+msgstr "Dato de entrada"
 
 #: translation.js:103
 msgid "System clock"
@@ -475,6 +480,8 @@ msgid ""
 "D Flip-flip\n"
 "(System)"
 msgstr ""
+"Biestable D\n"
+"(Sistema)"
 
 #: translation.js:110
 #, fuzzy
