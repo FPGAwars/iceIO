@@ -8,6 +8,7 @@
 // 2. Press "Update" to update from sources
 
 gettext('InOut');
+gettext('Pull-up');
 gettext('ECP5');
 gettext('ICE40');
 gettext('InOut-right');
@@ -24,6 +25,12 @@ gettext('InOut-x2');
 gettext('InOut-x2_ICE40:  2 bits Input-Output block for the ICE40 FPGA Family');
 gettext('InOut_ICE40:  Input-Output block for the ICE40 FPGA Family');
 gettext('InOut');
+gettext('ICE40');
+gettext('Pull-up-x1');
+gettext('Pull-up_ICE40:: FPGA internal pull-up configuration on the input port. ICE40 FPGA family');
+gettext('### Pull-up parameter:\n\n0: No pull-up  \n1: Pull-up activated');
+gettext('Only an FPGA pin can  \nbe connected here!!!');
+gettext('The pull-up is connected  \nby default');
 gettext('01-Input-config');
 gettext('02-Output-config');
 gettext('TESTs');
@@ -34,6 +41,7 @@ gettext('### ICE40');
 gettext('### ECP5');
 gettext('### 2 Bits');
 gettext('### 1 Bit');
+gettext('## Pull-up');
 gettext('Alhambra-II');
 gettext('01-button-LED');
 gettext('Constant bit 0');
@@ -112,7 +120,7 @@ gettext('D Flip-flip\n(System)');
 gettext('02-Blinking-LEDs-x2');
 gettext('Output pins  \n(Manually configured)');
 gettext('**InOut-x2-right block**');
-gettext('## Manual configuration of an two output pin\n\nExample of how the IO block is used for configuring two pins as outputs  \nThe two LEDs are blinking alternatively');
+gettext('## Manual configuration of two output pins\n\nExample of how the IO block is used for configuring two pins as outputs  \nThe two LEDs are blinking alternatively');
 gettext('01-Blinking-LED');
 gettext('02-Blinking-LEDs-x2');
 gettext('00-Index');

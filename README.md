@@ -40,6 +40,9 @@ For installing and using this colection in Icestudio follow these steps:
     * InOut-x2-right
     * InOut-x2
     * InOut
+* **Pull-up**
+  * **ICE40**
+    * Pull-up-x1
 
 ## Examples
 * 00-Index
