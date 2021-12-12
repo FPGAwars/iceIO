@@ -107,4 +107,3 @@ gettext('Input data');
 gettext('# D Flip-Flop  \n\nIt stores the input data that arrives at cycle n  \nIts output is shown in the cycle n+1');
 gettext('Mux 2-1');
 gettext('D Flip-flip\n(System)');
-gettext('InOut-ES');

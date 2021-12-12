@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/65) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
 
 ## Blocks
 * **InOut**
@@ -50,7 +50,6 @@ For installing and using this colection in Icestudio follow these steps:
   * **Alhambra-II**
     * 01-Blinking-LED
 * **TESTs**
-  * **InOut-ES**
 
 ## Authors
 * [Salvador E. Tropea](https://github.com/set-soft)
