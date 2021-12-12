@@ -74,11 +74,11 @@ msgstr "InOut_ICE40:  Bloque de Entrada/Salida para la familia ICE40 de FPGAs"
 
 #: translation.js:22
 msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
-msgstr ""
+msgstr "Bus2-Split-all: Separar el bus de 2 bits en dos cables"
 
 #: translation.js:23
 msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
-msgstr ""
+msgstr "Bus2-Join-all: Juntar dos cables en un bus de 2 bits"
 
 #: translation.js:25
 msgid "01-Input-config"
@@ -122,7 +122,7 @@ msgstr "### 1 Bit"
 
 #: translation.js:35 translation.js:46
 msgid "Alhambra-II"
-msgstr ""
+msgstr "Alhambra-II"
 
 #: translation.js:36
 msgid "01-button-LED"
@@ -230,7 +230,7 @@ msgstr ""
 
 #: translation.js:57
 msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
-msgstr ""
+msgstr "Bus4-Split-all:  Separar el bus de 4 bits en sus cables"
 
 #: translation.js:58
 msgid "Three bits input And gate"
@@ -243,16 +243,19 @@ msgstr ""
 #: translation.js:60
 msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
 msgstr ""
+"Bus8-Split-half: Separar el bus de 8 bits en dos buses del mismo tamaño"
 
 #: translation.js:61
 msgid ""
 "Bus24-Split-one-third: Split the 24-bits bus into three buses of  the same "
 "size"
 msgstr ""
+"Bus24-Split-one-third: Separar el bus de 24-bits en tres buses del mismo "
+"tamaño"
 
 #: translation.js:62
 msgid "24-bits Syscounter with reset"
-msgstr ""
+msgstr "Contador del sistema de 24 bits, con reset"
 
 #: translation.js:63
 msgid "DFF-rst-x24: 24 D flip-flops in paralell with reset"
@@ -260,7 +263,7 @@ msgstr ""
 
 #: translation.js:64
 msgid "Bus24-Join-one-third: Join the three buses into an 24-bits Bus"
-msgstr ""
+msgstr "Bus24-Join-one-third:  Juntar los tres buses en uno de 24 bits"
 
 #: translation.js:65
 msgid "DFF-rst-x08: Eight D flip-flops in paralell with reset"
@@ -272,7 +275,7 @@ msgstr ""
 
 #: translation.js:67
 msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
-msgstr ""
+msgstr "Bus4-Join-all: Juntar todos los cables en un bus de 4-bits"
 
 #: translation.js:68
 msgid "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0"
@@ -284,7 +287,7 @@ msgstr ""
 
 #: translation.js:70
 msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-half: Juntar las dos mitades en un bus de 8-bits"
 
 #: translation.js:71
 msgid "Inc1-24bit: Increment a 24-bits number by one"
@@ -292,7 +295,7 @@ msgstr ""
 
 #: translation.js:72
 msgid "AdderK-24bit: Adder of 24-bit operand and 24-bit constant"
-msgstr ""
+msgstr "AdderK-24bit: Sumador de un operando y una constante de 24 bits"
 
 #: translation.js:73
 msgid "Generic: 24-bits generic constant"
@@ -300,23 +303,24 @@ msgstr ""
 
 #: translation.js:74
 msgid "Adder-24bits: Adder of two operands of 24 bits"
-msgstr ""
+msgstr "Adder-24bits: Sumador de dos operandos de 24 bits"
 
 #: translation.js:75
 msgid "Adder-8bits: Adder of two operands of 8 bits"
-msgstr ""
+msgstr "Adder-8bits: Sumador de dos operandos de 8 bits"
 
 #: translation.js:76
 msgid "Adder-4bits: Adder of two operands of 4 bits"
-msgstr ""
+msgstr "Adder-4bits: Sumador de dos operandos de 4 bits"
 
 #: translation.js:77
 msgid "Adder-1bit: Adder of two operands of 1 bit"
-msgstr ""
+msgstr "Adder-1bit: Sumador de dos operndos de 1 bit"
 
 #: translation.js:78
 msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
 msgstr ""
+"Adderc-1bit: Sumador de dos operandos de 1 bit más el acarreo de entrada"
 
 #: translation.js:79
 msgid "OR2: Two bits input OR gate"
@@ -325,27 +329,30 @@ msgstr ""
 #: translation.js:80
 msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
 msgstr ""
+"AdderC-4bits: Sumador de dos operandos de 4 bits y el acarreo de entrada"
 
 #: translation.js:81
 msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
-msgstr ""
+msgstr "AdderC-8bits: Sumador de dos operandos de 8 bits y acarreo de entrada"
 
 #: translation.js:82
 msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
-msgstr ""
+msgstr "Bus16-Join-half: Juntar las dos mitades en un bus de 16 bits"
 
 #: translation.js:83
 msgid ""
 "Bus24-Split-16-8: Split the 24-bits bus into two buses of 16 and 8 wires"
 msgstr ""
+"Bus24-Split-16-8: Separar el bus de 24-bits en dos buses de 16 6 8 cables"
 
 #: translation.js:84
 msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
 msgstr ""
+"Bus16-Split-half: Separar el bus de 16 bits en dos buses del mismo tamaño"
 
 #: translation.js:85
 msgid "Bus24-Join-8-16: Join the two buses into an 24-bits Bus"
-msgstr ""
+msgstr "Bus24-Join-8-16: Juntar los dos buses en uno de 24-bits"
 
 #: translation.js:86
 msgid "Counter-x01: 1-bit counter"
@@ -357,11 +364,11 @@ msgstr ""
 
 #: translation.js:88
 msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
-msgstr ""
+msgstr "Multiplexor de 2 a 1 (Canales de 1 bit). Versión invertida"
 
 #: translation.js:89
 msgid "2-to-1 Multplexer (1-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2 a 1 (Canales de 1 bit)"
 
 #: translation.js:90
 msgid ""
@@ -405,11 +412,11 @@ msgstr ""
 
 #: translation.js:97
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: translation.js:98
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: translation.js:99
 msgid "Input"
