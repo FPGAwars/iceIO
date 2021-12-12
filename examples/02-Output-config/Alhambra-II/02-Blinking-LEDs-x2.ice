@@ -101,7 +101,7 @@
           "id": "7136c06e-45e3-4286-8ddb-97d96289a73c",
           "type": "basic.info",
           "data": {
-            "info": "## Manual configuration of an two output pin\n\nExample of how the IO block is used for configuring two pins as outputs  \nThe two LEDs are blinking alternatively",
+            "info": "## Manual configuration of two output pins\n\nExample of how the IO block is used for configuring two pins as outputs  \nThe two LEDs are blinking alternatively",
             "readonly": true
           },
           "position": {
