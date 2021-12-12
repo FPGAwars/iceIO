@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-12 16:12+0100\n"
+"POT-Creation-Date: 2021-12-12 16:54+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -82,19 +82,19 @@ msgstr ""
 
 #: translation.js:25
 msgid "01-Input-config"
-msgstr ""
+msgstr "01-Input-config"
 
 #: translation.js:26
 msgid "02-Output-config"
-msgstr ""
+msgstr "02-Output-config"
 
 #: translation.js:27
 msgid "TESTs"
 msgstr ""
 
-#: translation.js:28 translation.js:117
+#: translation.js:28
 msgid "00-Index"
-msgstr ""
+msgstr "00-Index"
 
 #: translation.js:29
 msgid "# INDEX: IceIO Collection"
@@ -105,30 +105,28 @@ msgid "## InOut"
 msgstr "## InOut"
 
 #: translation.js:31
-#, fuzzy
-#| msgid "ICE40"
 msgid "### ICE40"
-msgstr "ICE40"
+msgstr "### ICE40"
 
 #: translation.js:32
 msgid "### ECP5"
-msgstr ""
+msgstr "### ECP5"
 
 #: translation.js:33
 msgid "### 2 Bits"
-msgstr ""
+msgstr "### 2 Bits"
 
 #: translation.js:34
 msgid "### 1 Bit"
-msgstr ""
+msgstr "### 1 Bit"
 
-#: translation.js:35 translation.js:49
+#: translation.js:35 translation.js:46
 msgid "Alhambra-II"
 msgstr ""
 
-#: translation.js:36 translation.js:46
+#: translation.js:36
 msgid "01-button-LED"
-msgstr ""
+msgstr "01-button-LED"
 
 #: translation.js:37
 msgid "Constant bit 0"
@@ -157,14 +155,18 @@ msgid ""
 "Example of how the IO block is used for configuring a pin as input  \n"
 "The input pin is shown on a LED"
 msgstr ""
+"## Configuración manual de un pin de entrada\n"
+"\n"
+"Ejemplo de cómo usar un bloque IO para configurar un pin como entrada  \n"
+"El pin de entrada se muestra en un LED"
 
 #: translation.js:42
 msgid "**ICE40 FPGA family**"
 msgstr "**Familia de FPGAs ICE40**"
 
-#: translation.js:43 translation.js:47
+#: translation.js:43
 msgid "02-buttons-LEDs-x2"
-msgstr ""
+msgstr "02-buttons-LEDs-x2"
 
 #: translation.js:44
 msgid ""
@@ -178,271 +180,274 @@ msgid ""
 "\n"
 "The two pins are configured as input and shown on two LEDs"
 msgstr ""
+"## Configuración manual de dos pines de entrada\n"
+"\n"
+"Los dos pines se configura como entrada y se muestran en dos LEDs"
 
-#: translation.js:48 translation.js:115
-msgid "02-pin-entrada-test-2"
-msgstr ""
-
-#: translation.js:50 translation.js:113
+#: translation.js:47
 msgid "01-Blinking-LED"
-msgstr ""
+msgstr "01-Blinking-LED"
 
-#: translation.js:51
+#: translation.js:48
 msgid "Constant bit 1"
 msgstr ""
 
-#: translation.js:52
+#: translation.js:49
 msgid ""
 "sysclk_divN_24bits: Generate a signal from the division of the system clock "
 "by N. (24-bits precision) (N = 2,3,4,..,0x1000000))"
 msgstr ""
 
-#: translation.js:53
+#: translation.js:50
 msgid ""
 "Generic: 24-bits k-1 constant (Input values: 1,2,...,h1000000). It returns "
 "the value input by the user minus 1. Outputs: 0,1,2,...,FFFFFF"
 msgstr ""
 
-#: translation.js:54
+#: translation.js:51
 msgid "Comp2-24bit: Comparator of two 24-bit numbers"
 msgstr ""
 
-#: translation.js:55
+#: translation.js:52
 msgid "Comp2-8bit: Comparator of two 8-bit numbers"
 msgstr ""
 
-#: translation.js:56
+#: translation.js:53
 msgid "Comp2-4bit: Comparator of two 4-bit numbers"
 msgstr ""
 
-#: translation.js:57
+#: translation.js:54
 msgid "Comp2-1bit: Comparator of two 1-bit numbers"
 msgstr ""
 
-#: translation.js:58
+#: translation.js:55
 msgid "XOR gate: two bits input xor gate"
 msgstr ""
 
-#: translation.js:59
+#: translation.js:56
 msgid "NOT gate (Verilog implementation)"
 msgstr ""
 
-#: translation.js:60
+#: translation.js:57
 msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
 msgstr ""
 
-#: translation.js:61
+#: translation.js:58
 msgid "Three bits input And gate"
 msgstr ""
 
-#: translation.js:62
+#: translation.js:59
 msgid "Two bits input And gate"
 msgstr ""
 
-#: translation.js:63
+#: translation.js:60
 msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
 msgstr ""
 
-#: translation.js:64
+#: translation.js:61
 msgid ""
 "Bus24-Split-one-third: Split the 24-bits bus into three buses of  the same "
 "size"
 msgstr ""
 
-#: translation.js:65
+#: translation.js:62
 msgid "24-bits Syscounter with reset"
 msgstr ""
 
-#: translation.js:66
+#: translation.js:63
 msgid "DFF-rst-x24: 24 D flip-flops in paralell with reset"
 msgstr ""
 
-#: translation.js:67
+#: translation.js:64
 msgid "Bus24-Join-one-third: Join the three buses into an 24-bits Bus"
 msgstr ""
 
-#: translation.js:68
+#: translation.js:65
 msgid "DFF-rst-x08: Eight D flip-flops in paralell with reset"
 msgstr ""
 
-#: translation.js:69
+#: translation.js:66
 msgid "DFF-rst-x04: Three D flip-flops in paralell with reset"
 msgstr ""
 
-#: translation.js:70
+#: translation.js:67
 msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
 msgstr ""
 
-#: translation.js:71
+#: translation.js:68
 msgid "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0"
 msgstr ""
 
-#: translation.js:72
+#: translation.js:69
 msgid "D Flip-flop (verilog implementation)"
 msgstr ""
 
-#: translation.js:73
+#: translation.js:70
 msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
 msgstr ""
 
-#: translation.js:74
+#: translation.js:71
 msgid "Inc1-24bit: Increment a 24-bits number by one"
 msgstr ""
 
-#: translation.js:75
+#: translation.js:72
 msgid "AdderK-24bit: Adder of 24-bit operand and 24-bit constant"
 msgstr ""
 
-#: translation.js:76
+#: translation.js:73
 msgid "Generic: 24-bits generic constant"
 msgstr ""
 
-#: translation.js:77
+#: translation.js:74
 msgid "Adder-24bits: Adder of two operands of 24 bits"
 msgstr ""
 
-#: translation.js:78
+#: translation.js:75
 msgid "Adder-8bits: Adder of two operands of 8 bits"
 msgstr ""
 
-#: translation.js:79
+#: translation.js:76
 msgid "Adder-4bits: Adder of two operands of 4 bits"
 msgstr ""
 
-#: translation.js:80
+#: translation.js:77
 msgid "Adder-1bit: Adder of two operands of 1 bit"
 msgstr ""
 
-#: translation.js:81
+#: translation.js:78
 msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
 msgstr ""
 
-#: translation.js:82
+#: translation.js:79
 msgid "OR2: Two bits input OR gate"
 msgstr ""
 
-#: translation.js:83
+#: translation.js:80
 msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
 msgstr ""
 
-#: translation.js:84
+#: translation.js:81
 msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
 msgstr ""
 
-#: translation.js:85
+#: translation.js:82
 msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
 msgstr ""
 
-#: translation.js:86
+#: translation.js:83
 msgid ""
 "Bus24-Split-16-8: Split the 24-bits bus into two buses of 16 and 8 wires"
 msgstr ""
 
-#: translation.js:87
+#: translation.js:84
 msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
 msgstr ""
 
-#: translation.js:88
+#: translation.js:85
 msgid "Bus24-Join-8-16: Join the two buses into an 24-bits Bus"
 msgstr ""
 
-#: translation.js:89
+#: translation.js:86
 msgid "Counter-x01: 1-bit counter"
 msgstr ""
 
-#: translation.js:90
+#: translation.js:87
 msgid "Reg: 1-Bit register"
 msgstr ""
 
-#: translation.js:91
+#: translation.js:88
 msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
 msgstr ""
 
-#: translation.js:92
+#: translation.js:89
 msgid "2-to-1 Multplexer (1-bit channels)"
 msgstr ""
 
-#: translation.js:93
+#: translation.js:90
 msgid ""
 "Output pin  \n"
 "(Manually configured)"
 msgstr ""
 
-#: translation.js:94
+#: translation.js:91
 msgid "**InOut-right block**"
 msgstr "**Bloque InOut-right**"
 
-#: translation.js:95
+#: translation.js:92
 msgid ""
 "Configure as  \n"
 "an output"
 msgstr ""
 
-#: translation.js:96
+#: translation.js:93
 msgid ""
 "## Manual configuration of an output pin\n"
 "\n"
 "Example of how the IO block is used for configuring a pin as output  \n"
 "The LED is blinking"
 msgstr ""
+"## Configuración manual de un pin de salida\n"
+"\n"
+"Ejemplo de cómo usar el bloque IO para configurar un pin como salida  \n"
+"El LED parpadea"
 
-#: translation.js:97
+#: translation.js:94
 msgid "T flip-flop"
 msgstr ""
 
-#: translation.js:98
+#: translation.js:95
 msgid "Output: 0,1,2,...,hffffff"
 msgstr ""
 
-#: translation.js:99
+#: translation.js:96
 msgid "Inputs: 1,2,...,h1000000"
 msgstr ""
 
-#: translation.js:100
+#: translation.js:97
 msgid "A"
 msgstr ""
 
-#: translation.js:101
+#: translation.js:98
 msgid "B"
 msgstr ""
 
-#: translation.js:102
+#: translation.js:99
 msgid "Input"
 msgstr ""
 
-#: translation.js:103
+#: translation.js:100
 msgid "Output"
 msgstr ""
 
-#: translation.js:104
+#: translation.js:101
 msgid ""
 "Reset input: Active high  \n"
 "When rst = 1, the DFF is reset to 0"
 msgstr ""
 
-#: translation.js:105
+#: translation.js:102
 msgid "Data input"
 msgstr ""
 
-#: translation.js:106
+#: translation.js:103
 msgid "System clock"
 msgstr ""
 
-#: translation.js:107
+#: translation.js:104
 msgid ""
 "Initial default  \n"
 "value: 0"
 msgstr ""
 
-#: translation.js:108
+#: translation.js:105
 msgid "Parameter: Initial value"
 msgstr ""
 
-#: translation.js:109
+#: translation.js:106
 msgid "Input data"
 msgstr ""
 
-#: translation.js:110
+#: translation.js:107
 msgid ""
 "# D Flip-Flop  \n"
 "\n"
@@ -454,22 +459,18 @@ msgstr ""
 "Almacena el dato de entrada que llega en el ciclo n  \n"
 "Su salida se muestra en el ciclo n+1"
 
-#: translation.js:111
+#: translation.js:108
 msgid "Mux 2-1"
 msgstr ""
 
-#: translation.js:112
+#: translation.js:109
 msgid ""
 "D Flip-flip\n"
 "(System)"
 msgstr ""
 
-#: translation.js:114
+#: translation.js:110
 #, fuzzy
 #| msgid "InOut"
 msgid "InOut-ES"
 msgstr "InOut"
-
-#: translation.js:116
-msgid "04-pin-salida-test-2"
-msgstr ""
