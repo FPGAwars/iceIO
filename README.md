@@ -37,6 +37,7 @@ For installing and using this colection in Icestudio follow these steps:
     * InOut
   * **ICE40**
     * InOut-right
+    * InOut-x2-right
     * InOut-x2
     * InOut
 
@@ -49,6 +50,7 @@ For installing and using this colection in Icestudio follow these steps:
 * **02-Output-config**
   * **Alhambra-II**
     * 01-Blinking-LED
+    * 02-Blinking-LEDs-x2
 * **TESTs**
 
 ## Authors
