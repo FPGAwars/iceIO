@@ -43,6 +43,7 @@ For installing and using this colection in Icestudio follow these steps:
 * **Pull-up**
   * **ICE40**
     * Pull-up-x1
+    * Pull-up-x2
 
 ## Examples
 * 00-Index
@@ -54,6 +55,10 @@ For installing and using this colection in Icestudio follow these steps:
   * **Alhambra-II**
     * 01-Blinking-LED
     * 02-Blinking-LEDs-x2
+* **04-pull-up-config**
+  * **Alhambra-II**
+    * 01-pull-up-x1
+    * 02-pull-up-x2
 * **TESTs**
 
 ## Authors
