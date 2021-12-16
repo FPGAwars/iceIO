@@ -42,6 +42,7 @@ For installing and using this colection in Icestudio follow these steps:
       * InOut-right-x3
       * InOut-x3
     * **04-bits**
+      * InOut-right-x4
       * InOut-x4
   * **ICE40**
     * InOut-right

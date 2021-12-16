@@ -490,6 +490,18 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "2de41692-4f8b-4328-839d-ea31e0171cf1",
+          "type": "43a9ce4c2f0847305b6407294f64bdb988a93bc2",
+          "position": {
+            "x": 800,
+            "y": 824
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": []
