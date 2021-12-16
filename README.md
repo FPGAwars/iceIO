@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/97) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
 
 ## Blocks
 * **InOut**
@@ -44,6 +44,8 @@ For installing and using this colection in Icestudio follow these steps:
     * **02-bits**
       * InOut-x2-right
       * InOut-x2
+    * **03-bits**
+      * InOut-x3
 * **Pull-up**
   * **ICE40**
     * Pull-up-x1
@@ -81,6 +83,10 @@ For installing and using this colection in Icestudio follow these steps:
     * 02-pull-up-x2
     * 03-pull-up-x3
 * **TESTs**
+  * **InOut**
+    * **InOut-x03**
+      * **Alhambra-II**
+        * 01-manual-testing
   * **Pull-up**
     * **Pull-up-x03**
       * **Alhambra-II**
