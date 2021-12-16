@@ -49,6 +49,7 @@ For installing and using this colection in Icestudio follow these steps:
     * Pull-up-x1
     * Pull-up-x2
     * pull-up-x03
+    * pull-up-x04
 
 ## Examples
 * 00-Index
@@ -78,6 +79,14 @@ For installing and using this colection in Icestudio follow these steps:
     * 01-pull-up-x1
     * 02-pull-up-x2
     * 03-pull-up-x3
+* **TESTs**
+  * **Pull-up**
+    * **Pull-up-x03**
+      * **Alhambra-II**
+        * 01-manual-testing
+    * **Pull-up-x04**
+      * **Alhambra-II**
+        * 01-manual-testing
 
 ## Authors
 * [Salvador E. Tropea](https://github.com/set-soft)
