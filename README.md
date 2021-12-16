@@ -34,18 +34,21 @@ For installing and using this colection in Icestudio follow these steps:
 * **InOut**
   * **ECP5**
     * InOut-right
-    * InOut-x2-right
-    * InOut-x2
     * InOut
+    * **02-bits**
+      * InOut-x2-right
+      * InOut-x2
   * **ICE40**
     * InOut-right
-    * InOut-x2-right
-    * InOut-x2
     * InOut
+    * **02-bits**
+      * InOut-x2-right
+      * InOut-x2
 * **Pull-up**
   * **ICE40**
     * Pull-up-x1
     * Pull-up-x2
+    * pull-up-x03
 
 ## Examples
 * 00-Index
@@ -74,6 +77,7 @@ For installing and using this colection in Icestudio follow these steps:
   * **Alhambra-II**
     * 01-pull-up-x1
     * 02-pull-up-x2
+    * 03-pull-up-x3
 
 ## Authors
 * [Salvador E. Tropea](https://github.com/set-soft)
