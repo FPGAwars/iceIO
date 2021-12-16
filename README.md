@@ -45,6 +45,7 @@ For installing and using this colection in Icestudio follow these steps:
       * InOut-x2-right
       * InOut-x2
     * **03-bits**
+      * InOut-right-x3
       * InOut-x3
     * **04-bits**
       * InOut-x4
@@ -86,6 +87,9 @@ For installing and using this colection in Icestudio follow these steps:
     * 03-pull-up-x3
 * **TESTs**
   * **InOut**
+    * **InOut-right-x03**
+      * **Alhambra-II**
+        * 01-manual-testing
     * **InOut-x03**
       * **Alhambra-II**
         * 01-manual-testing
