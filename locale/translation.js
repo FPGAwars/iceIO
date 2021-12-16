@@ -209,6 +209,7 @@ gettext('## Manual configuration of three input pins\n\nThe pins are configured 
 gettext('01-manual-testing');
 gettext('Alhambra-II');
 gettext('01-manual-testing');
+gettext('## Manual configuration of four input pins\n\nThe pins are configured as inputs and shown on LEDs');
 gettext('01-manual-testing');
 gettext('Pull-up-x03');
 gettext('Pull-up-x04');

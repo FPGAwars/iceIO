@@ -411,8 +411,8 @@
           "id": "fe91a3be-7e64-46eb-a4a4-fbdf2a2f7cba",
           "type": "990a115769d2413e22c08c6357a1b4a654b360e8",
           "position": {
-            "x": 592,
-            "y": 704
+            "x": 160,
+            "y": 712
           },
           "size": {
             "width": 96,
@@ -423,8 +423,8 @@
           "id": "827da1da-b647-4c28-98b0-fa076af436dd",
           "type": "e6555af25f6c305bf5e50b76fcc11f68bc9202af",
           "position": {
-            "x": 592,
-            "y": 832
+            "x": 160,
+            "y": 840
           },
           "size": {
             "width": 96,

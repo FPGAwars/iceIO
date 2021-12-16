@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-16 18:43+0100\n"
+"POT-Creation-Date: 2021-12-16 18:51+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -263,7 +263,7 @@ msgstr "04-pull-up-config"
 msgid "TESTs"
 msgstr "TESTs"
 
-#: translation.js:66 translation.js:226
+#: translation.js:66 translation.js:227
 msgid "00-Index"
 msgstr "00-Index"
 
@@ -308,8 +308,8 @@ msgid "### 8 Bits"
 msgstr "### 8 Bits"
 
 #: translation.js:77 translation.js:100 translation.js:171 translation.js:190
-#: translation.js:206 translation.js:210 translation.js:216 translation.js:220
-#: translation.js:223
+#: translation.js:206 translation.js:210 translation.js:217 translation.js:221
+#: translation.js:224
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
@@ -921,8 +921,8 @@ msgstr "InOut-x03"
 msgid "InOut-x04"
 msgstr "InOut-x04"
 
-#: translation.js:207 translation.js:209 translation.js:211 translation.js:212
-#: translation.js:217 translation.js:219 translation.js:221 translation.js:224
+#: translation.js:207 translation.js:209 translation.js:211 translation.js:213
+#: translation.js:218 translation.js:220 translation.js:222 translation.js:225
 msgid "01-manual-testing"
 msgstr "01-manual-testing"
 
@@ -936,19 +936,29 @@ msgstr ""
 "\n"
 "Los pines se configuran como entrada y se muestran en los LEDs"
 
-#: translation.js:213
+#: translation.js:212
+msgid ""
+"## Manual configuration of four input pins\n"
+"\n"
+"The pins are configured as inputs and shown on LEDs"
+msgstr ""
+"## Configuración manual de cuatro pines de entrada\n"
+"\n"
+"Los pines se configuran como entrada y se muestran en los LEDs"
+
+#: translation.js:214
 msgid "Pull-up-x03"
 msgstr "Pull-up-x03"
 
-#: translation.js:214
+#: translation.js:215
 msgid "Pull-up-x04"
 msgstr "Pull-up-x04"
 
-#: translation.js:215
+#: translation.js:216
 msgid "Pull-up-x08"
 msgstr "Pull-up-x08"
 
-#: translation.js:218
+#: translation.js:219
 msgid ""
 "## Pull-up-x03: Manual testing\n"
 "\n"
@@ -958,7 +968,7 @@ msgstr ""
 "\n"
 "El estado de los botones se muestra en los LEDs"
 
-#: translation.js:222
+#: translation.js:223
 msgid ""
 "## Pull-up-x04: Manual testing\n"
 "\n"
@@ -968,7 +978,7 @@ msgstr ""
 "\n"
 "El estado de los botones se muestra en los LEDs"
 
-#: translation.js:225
+#: translation.js:226
 msgid ""
 "## Pull-up-x08: Manual testing\n"
 "\n"
