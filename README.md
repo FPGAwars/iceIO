@@ -34,6 +34,8 @@ For installing and using this colection in Icestudio follow these steps:
 * **InOut**
   * **ECP5**
     * InOut-right
+    * InOut-x2-right
+    * InOut-x2
     * InOut
   * **ICE40**
     * InOut-right
@@ -51,15 +53,27 @@ For installing and using this colection in Icestudio follow these steps:
   * **Alhambra-II**
     * 01-button-LED
     * 02-buttons-LEDs-x2
+  * **ULX3S-12F**
+    * 01-button-LED
+    * 02-buttons-LEDs-x2
 * **02-Output-config**
   * **Alhambra-II**
     * 01-Blinking-LED
     * 02-Blinking-LEDs-x2
+  * **ULX3S-12F**
+    * 01-Blinking-LED
+    * 02-Blinking-LEDs-x2
+* **03-InOut-test**
+  * **Alhambra-II**
+    * 01-InOut-button-LED
+    * 02-InOut-button-LED-rightice
+  * **ULX3S-12F**
+    * 01-InOut-button-LED-right
+    * 01-InOut-button-LED
 * **04-pull-up-config**
   * **Alhambra-II**
     * 01-pull-up-x1
     * 02-pull-up-x2
-* **TESTs**
 
 ## Authors
 * [Salvador E. Tropea](https://github.com/set-soft)
