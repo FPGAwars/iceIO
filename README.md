@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/97) |
 
 ## Blocks
 * **InOut**
@@ -50,6 +50,7 @@ For installing and using this colection in Icestudio follow these steps:
     * Pull-up-x2
     * pull-up-x03
     * pull-up-x04
+    * pull-up-x08
 
 ## Examples
 * 00-Index
@@ -85,6 +86,9 @@ For installing and using this colection in Icestudio follow these steps:
       * **Alhambra-II**
         * 01-manual-testing
     * **Pull-up-x04**
+      * **Alhambra-II**
+        * 01-manual-testing
+    * **Pull-up-x08**
       * **Alhambra-II**
         * 01-manual-testing
 
