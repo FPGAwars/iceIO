@@ -95,7 +95,7 @@
           "id": "7136c06e-45e3-4286-8ddb-97d96289a73c",
           "type": "basic.info",
           "data": {
-            "info": "## Manual configuration of an output pin\n\nExample of how the IO block is used for configuring a pin as output  \nThe LED is blinking",
+            "info": "## Example: Manual configuration of an output pin\n\nExample of how the IO block is used for configuring a pin as output  \nThe LED is blinking",
             "readonly": true
           },
           "position": {
