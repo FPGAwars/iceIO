@@ -102,7 +102,7 @@
           "id": "7136c06e-45e3-4286-8ddb-97d96289a73c",
           "type": "basic.info",
           "data": {
-            "info": "## Manual configuration of an input pin\n\nExample of how the IO block is used for configuring a pin as input  \nThe input pin is shown on a LED",
+            "info": "## Example: Manual configuration of an input pin\n\nExample of how the IO block is used for configuring a pin as input  \nThe input pin is shown on a LED",
             "readonly": true
           },
           "position": {
