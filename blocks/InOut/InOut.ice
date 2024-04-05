@@ -9,6 +9,7 @@
   },
   "design": {
     "board": "alhambra-ii",
+    "config": "true",
     "graph": {
       "blocks": [
         {
