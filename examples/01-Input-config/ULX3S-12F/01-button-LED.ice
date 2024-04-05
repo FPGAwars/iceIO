@@ -194,34 +194,6 @@
           }
         },
         {
-          "id": "40e611c7-0da5-4648-a789-5b26139e79c3",
-          "type": "basic.info",
-          "data": {
-            "info": "**ECP5 FPGA family**",
-            "readonly": true
-          },
-          "position": {
-            "x": 664,
-            "y": 352
-          },
-          "size": {
-            "width": 216,
-            "height": 32
-          }
-        },
-        {
-          "id": "fa28e9ea-6f1e-483c-b31f-d5c549cacc80",
-          "type": "8361ca1e96595218744e428a58887f9c8f0131a6",
-          "position": {
-            "x": 672,
-            "y": 240
-          },
-          "size": {
-            "width": 96,
-            "height": 96
-          }
-        },
-        {
           "id": "1febf097-112e-4f29-a856-fed4e20a2db1",
           "type": "basic.info",
           "data": {
@@ -248,6 +220,18 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "06c5e102-2967-46e7-bf47-48657d1c96bf",
+          "type": "4dd5df45baef6a8344b068750d616e0306be7670",
+          "position": {
+            "x": 672,
+            "y": 240
+          },
+          "size": {
+            "width": 96,
+            "height": 96
+          }
         }
       ],
       "wires": [
@@ -268,7 +252,7 @@
             "port": "3d584b0a-29eb-47af-8c43-c0822282ef05"
           },
           "target": {
-            "block": "fa28e9ea-6f1e-483c-b31f-d5c549cacc80",
+            "block": "06c5e102-2967-46e7-bf47-48657d1c96bf",
             "port": "f96a1baf-fc8b-4c25-b132-12552605743f"
           },
           "vertices": [
@@ -284,13 +268,13 @@
             "port": "out"
           },
           "target": {
-            "block": "fa28e9ea-6f1e-483c-b31f-d5c549cacc80",
+            "block": "06c5e102-2967-46e7-bf47-48657d1c96bf",
             "port": "076fd025-aa42-4f23-ae97-b65aec2298ce"
           }
         },
         {
           "source": {
-            "block": "fa28e9ea-6f1e-483c-b31f-d5c549cacc80",
+            "block": "06c5e102-2967-46e7-bf47-48657d1c96bf",
             "port": "0b2a85b3-b6ac-4e8a-8b16-dd5a195fb058"
           },
           "target": {
@@ -364,12 +348,12 @@
         }
       }
     },
-    "8361ca1e96595218744e428a58887f9c8f0131a6": {
+    "4dd5df45baef6a8344b068750d616e0306be7670": {
       "package": {
-        "name": "InOut_ECP5",
-        "version": "1.0.2",
-        "description": "InOut_ECP5:  Input-Output block for the ECP5 FPGA Family",
-        "author": "Fernando Mosquera",
+        "name": "InOut",
+        "version": "2.1",
+        "description": "InOut:  Input-Output block",
+        "author": "Carlos Venegas Arrabé",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22729.371%22%20height=%22619.62%22%20viewBox=%220%200%20192.97942%20163.94111%22%20id=%22svg8%22%3E%3Cdefs%20id=%22defs2%22%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mstart%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path899%22%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22green%22%20fill-rule=%22evenodd%22%20stroke=%22green%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mstart%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path881%22%20d=%22M4%200l2-2-7%202%207%202z%22%20fill=%22green%22%20fill-rule=%22evenodd%22%20stroke=%22green%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path902%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22green%22%20fill-rule=%22evenodd%22%20stroke=%22green%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22TriangleOutS%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path1023%22%20d=%22M1.154%200l-1.73%201v-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.2666%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Send%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path890%22%20d=%22M-1.2%200l-1%201%203.5-1-3.5-1z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.2666%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-2%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path902-9%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22green%22%20fill-rule=%22evenodd%22%20stroke=%22green%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-2-2%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path902-9-7%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22green%22%20fill-rule=%22evenodd%22%20stroke=%22green%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cg%20id=%22layer1%22%20transform=%22translate(-8.28%20-58.123)%22%3E%3Cpath%20id=%22path855-5%22%20d=%22M130.88%20159.638l-27.214-45.357-27.214%2045.357z%22%20fill=%22#f2f2f2%22%20stroke=%22#000%22%20stroke-width=%222.646%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M103.666%20114.28V76.77H9.622%22%20id=%22path873%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222.646%22%20stroke-linecap=%22round%22/%3E%3Cpath%20d=%22M103.666%2076.77h96.252%22%20id=%22path1157%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222.646%22%20stroke-linecap=%22round%22/%3E%3Ccircle%20id=%22path1159%22%20cx=%22104.235%22%20cy=%2276.77%22%20r=%223.742%22%20fill=%22#00f%22%20stroke=%22#00f%22%20stroke-width=%222.646%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M105.27%20159.904v37.511H11.225%22%20id=%22path873-6%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222.646%22%20stroke-linecap=%22round%22/%3E%3Cpath%20d=%22M29.4%20215.216h57.195%22%20id=%22path1195%22%20fill=%22green%22%20stroke=%22green%22%20stroke-width=%222.646%22%20marker-end=%22url(#Arrow2Mend)%22/%3E%3Cpath%20d=%22M131.833%2065.023h57.196%22%20id=%22path1195-1%22%20fill=%22green%22%20stroke=%22green%22%20stroke-width=%222.646%22%20marker-end=%22url(#Arrow2Mend-2)%22/%3E%3Cpath%20d=%22M24.39%2065.023h57.196%22%20id=%22path1195-1-0%22%20fill=%22green%22%20stroke=%22green%22%20stroke-width=%222.646%22%20marker-start=%22url(#Arrow2Mstart)%22%20marker-end=%22url(#Arrow2Mend-2-2)%22/%3E%3Cpath%20d=%22M90.694%20135.035H51.459%22%20id=%22path873-9%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222.646%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:start%22%20x=%2238.628%22%20y=%22126.356%22%20id=%22text2352%22%20font-weight=%22400%22%20font-size=%2232.91%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%222.057%22%3E%3Ctspan%20id=%22tspan2350%22%20x=%2238.628%22%20y=%22126.356%22%3Eoe%3C/tspan%3E%3C/text%3E%3C/g%3E%3Cstyle%20id=%22style3%22/%3E%3C/svg%3E"
       },
       "design": {
@@ -425,7 +409,7 @@
               "id": "5c8e9a35-33e7-46ef-a0cc-cc27edcc99c0",
               "type": "basic.code",
               "data": {
-                "code": "  TRELLIS_IO #(\n       .DIR(\"BIDIR\")\n  ) siod_out_bidir (\n      .B(pin),\n      .T(~oe),\n      .I(dout),\n      .O(din)\n      \n  );",
+                "code": "//-- Generic InOut\n//-- Number of data bits\nlocalparam N = 1;\n\n//-- Configuration as input:\n//---- Read from pin --> din\nassign din = oe ? {N{1'b0}}  : pin;\n\n//-- Configuration as output\n//-- din is always 0!\n//-- dout --> pin\nassign pin = oe ? dout : {N{1'bZ}};",
                 "params": [],
                 "ports": {
                   "in": [
