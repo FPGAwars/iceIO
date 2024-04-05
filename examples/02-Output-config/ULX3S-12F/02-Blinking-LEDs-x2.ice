@@ -145,22 +145,6 @@
           }
         },
         {
-          "id": "17dbe321-c56c-4dfb-8cc4-f1878dfe3c9b",
-          "type": "basic.info",
-          "data": {
-            "info": "T flip-flop",
-            "readonly": true
-          },
-          "position": {
-            "x": -176,
-            "y": 288
-          },
-          "size": {
-            "width": 136,
-            "height": 40
-          }
-        },
-        {
           "id": "4d97a100-3bcb-4b54-a11f-3fa17f93d510",
           "type": "80ac841b78ab68b7668296f4d0b0b4daadc7bcf9",
           "position": {
