@@ -615,28 +615,20 @@ msgid "Two bits input And gate"
 msgstr "PUerta AND de dos entradas de 1 bit"
 
 #: translation.js:145
-#, fuzzy
-#| msgid "Inc1-24bit: Increment a 24-bits number by one"
 msgid "Inc1-32bit: Increment a 32-bits number by one"
-msgstr "Inc1-24bit:  Incrementar un número de 24-bits en uno"
+msgstr "Inc1-32bit:  Incrementar un número de 32-bits en uno"
 
 #: translation.js:146
-#, fuzzy
-#| msgid "AdderK-24bit: Adder of 24-bit operand and 24-bit constant"
 msgid "AdderK-32bit: Adder of 32-bit operand and 32-bit constant"
-msgstr "AdderK-24bit: Sumador de un operando y una constante de 24 bits"
+msgstr "AdderK-32bit: Sumador de un operando y una constante de 32 bits"
 
 #: translation.js:147
-#, fuzzy
-#| msgid "Generic: 24-bits generic constant"
 msgid "Generic: 32-bits generic constant"
-msgstr "Generic: Constante genérica de 24-bits"
+msgstr "Generic: Constante genérica de 32-bits"
 
 #: translation.js:148
-#, fuzzy
-#| msgid "Adder-24bits: Adder of two operands of 24 bits"
 msgid "Adder-32bits: Adder of two operands of 32 bits"
-msgstr "Adder-24bits: Sumador de dos operandos de 24 bits"
+msgstr "Adder-32bits: Sumador de dos operandos de 32 bits"
 
 #: translation.js:149
 msgid "Adder-8bits: Adder of two operands of 8 bits"
@@ -673,13 +665,10 @@ msgid "Bus24-Join-8-16: Join the two buses into an 24-bits Bus"
 msgstr "Bus24-Join-8-16: Juntar los dos buses en uno de 24-bits"
 
 #: translation.js:157
-#, fuzzy
-#| msgid ""
-#| "Bus24-Split-16-8: Split the 24-bits bus into two buses of 16 and 8 wires"
 msgid ""
 "Bus32-Split-8-24: Split the 28-bits bus into two buses of 8 and 24 wires"
 msgstr ""
-"Bus24-Split-16-8: Separar el bus de 24-bits en dos buses de 16 6 8 cables"
+"Bus32-Split-8-24: Separar el bus de 28-bits en dos buses de 8 y 24 cables"
 
 #: translation.js:158
 msgid ""
@@ -688,43 +677,52 @@ msgstr ""
 "Bus24-Split-16-8: Separar el bus de 24-bits en dos buses de 16 6 8 cables"
 
 #: translation.js:159
-#, fuzzy
-#| msgid "Bus24-Join-8-16: Join the two buses into an 24-bits Bus"
 msgid "Bus32-Join-8-24: Join the two buses into an 32-bits Bus"
-msgstr "Bus24-Join-8-16: Juntar los dos buses en uno de 24-bits"
+msgstr "Bus32-Join-8-24: Juntar los dos buses en uno de 32-bits"
 
 #: translation.js:160
 msgid ""
 "Geu-32-Bits_v: 32-bit Unsigned Greather than or equal comparator. Verilog "
 "implementation"
 msgstr ""
+"Geu-32-Bits_v: Comparador mayor o igual que, de 32-bits. Implementación en "
+"Verilog"
 
 #: translation.js:161
 msgid "32-Reg-rst: 32 bits Register with reset. Verilog implementation"
-msgstr ""
+msgstr "32-Reg-rst: Registro de 32 bits con reset. Implementación en verilog"
 
 #: translation.js:162
 msgid ""
 "RS-FF-set-verilog. RS Flip-flop with priority set. Implementation in verilog"
 msgstr ""
+"RS-FF-set-verilog. Biestable RS con prioridad en el set. Implementación en "
+"verilog"
 
 #: translation.js:163
 msgid ""
 "start: Start signal: It goes from 1 to 0 when the system clock starts. 1 "
 "cycle pulse witch. Block implementation"
 msgstr ""
+"start: Señal de start. Pasa de 1 a 0 cuando el reloj del sistema comienza. "
+"Anchura de un ciclo. Implementación con bloques"
 
 #: translation.js:164
 msgid ""
 "System - D Flip-flop. Capture data every system clock cycle. Verilog "
 "implementation"
 msgstr ""
+"Biestable D del sistema. Captura el data en cada ciclo del sistema. "
+"Implementación en verilog"
 
 #: translation.js:165
 msgid ""
 "TFF-verilog. System TFF with toggle input: It toogles on every system cycle "
 "if the input is active. Verilog implementation"
 msgstr ""
+"TFF-verilog. Biestable T del sistema con entrada de cambio: cambia en cada "
+"ciclo del reloj del sistema si la entrada está activada. Implementación en "
+"verilog"
 
 #: translation.js:166
 msgid ""
@@ -763,76 +761,80 @@ msgid ""
 "Dividir entre dos el periodo  \n"
 "(Multiplicar por 2 la frecuencia)  "
 msgstr ""
+"Dividir entre dos el periodo  \n"
+"(Multiplicar por 2 la frecuencia)  "
 
 #: translation.js:171
 msgid "Input parameter: Milieconds  "
-msgstr ""
+msgstr "Parámetro de entrada: Milisegundos  "
 
 #: translation.js:172
 msgid ""
 "Input parameter:  \n"
 "System Frequency"
 msgstr ""
+"Parámetro de entrada:  \n"
+"Frecuencia del sistema"
 
 #: translation.js:173
 msgid "Delay"
-msgstr ""
+msgstr "Retraso"
 
 #: translation.js:174
 msgid "Start a new period"
-msgstr ""
+msgstr "Comienzo de un nuevo periodo"
 
 #: translation.js:175
 msgid "Start at cycle 0!"
-msgstr ""
+msgstr "Comienza en el ciclo 0!"
 
 #: translation.js:176
 msgid "Repeat!"
-msgstr ""
+msgstr "Repetir!"
 
 #: translation.js:177
 msgid ""
 "Current period ended  \n"
 "Start a new one"
 msgstr ""
+"Periodo actual terminado  \n"
+"Comenzar uno nuevo"
 
 #: translation.js:178
 msgid "Periodo (in system clock cycles)"
-msgstr ""
+msgstr "Periodo (en ciclos del reloj del sistema)"
 
 #: translation.js:179
 msgid ""
 "Current cycle in the period  \n"
 "(0-T-1)"
 msgstr ""
+"Ciclo actual en el periodo  \n"
+"(0-T-1)"
 
 #: translation.js:180
 msgid "System clock"
 msgstr "Reloj del sistema"
 
 #: translation.js:181
-#, fuzzy
-#| msgid "Input data"
 msgid "Input signal"
-msgstr "Dato de entrada"
+msgstr "Señal de entrada"
 
 #: translation.js:182
 msgid "Cycles to delay"
-msgstr ""
+msgstr "Ciclos de retraso"
 
 #: translation.js:183
 msgid "Delay finished!"
-msgstr ""
+msgstr "Retraso finalizado!"
 
 #: translation.js:184
 msgid "Machine state: ON/OFF"
-msgstr ""
+msgstr "Máquina de estados: ON/OFF"
 
 #: translation.js:185
-#, fuzzy
-#| msgid "T flip-flop"
 msgid "RS Flip-Flop"
-msgstr "Biestable T"
+msgstr "Biestable RS"
 
 #: translation.js:186
 msgid ""
