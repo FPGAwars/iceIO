@@ -162,48 +162,36 @@ msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
 msgstr "Bus4-Join-all: Juntar todos los cables en un bus de 4-bits"
 
 #: translation.js:46
-#, fuzzy
-#| msgid "InOut-x4_ECP5:  4 bits Input-Output block for the ECP5 FPGA Family"
 msgid "InOut-x4:  4 bits Input-Output block. Blocks implementation"
 msgstr ""
-"InOut-x4_ECP5:   Bloque de Entrada/Salida de 4 bits para la familia ECP5 de "
-"FPGAs"
+"InOut-x4:   Bloque de Entrada/Salida de 4 bits. Implementación con bloques"
 
 #: translation.js:48
-#, fuzzy
-#| msgid "InOut-x2-right"
 msgid "InOut-x8-right"
-msgstr "InOut-x2-right"
+msgstr "InOut-x8-right"
 
 #: translation.js:49
-#, fuzzy
-#| msgid ""
-#| "InOut-x2-Right_ECP5:  2 bits Input-Output block for the ECP5 FPGA Family "
-#| "(Pin on the Right)"
 msgid ""
 "InOut-x8-Right:  8 bits Input-Output block (Pin on the Right). Verilog "
 "implementation"
 msgstr ""
-"InOut-x2-Right_ECP5::  Bloque de Entrada/Salida de 2 bits para la "
-"familiaECP5 de FPGAs (Pines en la derecha)"
+"InOut-x8-Right:  Bloque de Entrada/Salida de 8 bits (Pines en la derecha). "
+"Implementación en verilog"
 
 #: translation.js:50 translation.js:52
-#, fuzzy
-#| msgid "InOut-x2"
 msgid "InOut-x8"
-msgstr "InOut-x2"
+msgstr "InOut-x8"
 
 #: translation.js:51
-#, fuzzy
-#| msgid "InOut-x2_ECP5:  2 bits Input-Output block for the ECP5 FPGA Family"
 msgid "InOut-x8:  8 bits Input-Output block. Verilog implementation"
 msgstr ""
-"InOut-x2_ECP5:   Bloque de Entrada/Salida de 2 bits para la familia ECP5 de "
-"FPGAs"
+"InOut-x8:   Bloque de Entrada/Salida de 8 bits. Implementación en verilog"
 
 #: translation.js:53
 msgid "InOut-x08-block: 8-bits Input-Output block. Blocks implementation"
 msgstr ""
+"InOut-x8-block:  Bloque de Entrada/Salida de 8 bits. Implementación con "
+"bloques"
 
 #: translation.js:54
 msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
@@ -215,40 +203,31 @@ msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
 msgstr "Bus8-Join-half: Juntar las dos mitades en un bus de 8-bits"
 
 #: translation.js:57
-#, fuzzy
-#| msgid "InOut-x2-right"
 msgid "InOut-x16-right"
-msgstr "InOut-x2-right"
+msgstr "InOut-x16-right"
 
 #: translation.js:58
-#, fuzzy
-#| msgid ""
-#| "InOut-x2-Right_ECP5:  2 bits Input-Output block for the ECP5 FPGA Family "
-#| "(Pin on the Right)"
 msgid ""
 "InOut-x16-Right:  16 bits Input-Output block (Pin on the Right). Verilog "
 "implementation"
 msgstr ""
-"InOut-x2-Right_ECP5::  Bloque de Entrada/Salida de 2 bits para la "
-"familiaECP5 de FPGAs (Pines en la derecha)"
+"InOut-x16-Right:  Bloque de Entrada/Salida de 16 bits (Pines en la derecha). "
+"Implementación en verilog"
 
 #: translation.js:59 translation.js:61 translation.js:257
-#, fuzzy
-#| msgid "InOut-x2"
 msgid "InOut-x16"
-msgstr "InOut-x2"
+msgstr "InOut-x16"
 
 #: translation.js:60
-#, fuzzy
-#| msgid "InOut-x2_ECP5:  2 bits Input-Output block for the ECP5 FPGA Family"
 msgid "InOut-x16:  16 bits Input-Output block. Verilog implementation"
 msgstr ""
-"InOut-x2_ECP5:   Bloque de Entrada/Salida de 2 bits para la familia ECP5 de "
-"FPGAs"
+"InOut-x16:   Bloque de Entrada/Salida de 16 bits. Implementación en verilog"
 
 #: translation.js:62
 msgid "InOut-x16-block: 16-bits Input-Output block. Blocks implementation"
 msgstr ""
+"InOut-x16-block:  Bloque de Entrada/Salida de 16 bits. Implementación con "
+"bloques"
 
 #: translation.js:63
 msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
@@ -268,24 +247,22 @@ msgid "ICE40"
 msgstr "ICE40"
 
 #: translation.js:67
-#, fuzzy
-#| msgid "Pull-up-x1"
 msgid "Pull-up-ecp5 x1"
-msgstr "Pull-up-x1"
+msgstr "Pull-up-ecp5 x1"
 
 #: translation.js:68
-#, fuzzy
-#| msgid "FPGA internal pull-up configuration on the input port"
 msgid "ECP5 FPGA internal pull-up configuration on the connected input port"
-msgstr "Configuración de pull-up interno de la FPGA en el puerto de entrada"
+msgstr ""
+"Configuración de pull-up interno de la FPGA en el puerto de entrada. Familia "
+"ECP5"
 
 #: translation.js:69
 msgid "pull-NONE-ecp5 x1"
-msgstr ""
+msgstr "pull-NONE-ecp5 x1"
 
 #: translation.js:70
 msgid "pull-down-ecp5 x1"
-msgstr ""
+msgstr "pull-down-ecp5 x1"
 
 #: translation.js:71
 msgid "Pull-up-x1"
@@ -381,25 +358,27 @@ msgstr "8 Pull-ups internos de la FPGA"
 
 #: translation.js:88
 msgid "out-buffer-complement-ecp5"
-msgstr ""
+msgstr "out-buffer-complement-ecp5"
 
 #: translation.js:89
 msgid "Output Complementary Buffer  (OBCO) for ecp5"
-msgstr ""
+msgstr "Buffer de salida complementada (OBCO) para ECP5"
 
 #: translation.js:90
 msgid ""
 "<img src=\"C:\\Users\\J\\Pictures\\diff pairs-1.JPG\" alt=\"Megadrive "
 "Pinout\" width=\"735\" height=\"801\">"
 msgstr ""
+"<img src=\"C:\\Users\\J\\Pictures\\diff pairs-1.JPG\" alt=\"Megadrive "
+"Pinout\" width=\"735\" height=\"801\">"
 
 #: translation.js:91
 msgid "out-buffer-tristate-ecp5"
-msgstr ""
+msgstr "out-buffer-tristate-ecp5"
 
 #: translation.js:92
 msgid " Output Buffer with Tristate for ecp5"
-msgstr ""
+msgstr "Buffer de salida triestado para ECP5"
 
 #: translation.js:93
 msgid "01-Input-config"
@@ -462,10 +441,8 @@ msgid "### 8 Bits"
 msgstr "### 8 Bits"
 
 #: translation.js:108
-#, fuzzy
-#| msgid "### 1 Bit"
 msgid "### 16 Bits"
-msgstr "### 1 Bit"
+msgstr "### 16 Bit"
 
 #: translation.js:109 translation.js:131 translation.js:215 translation.js:233
 #: translation.js:258 translation.js:259 translation.js:263 translation.js:272
@@ -594,6 +571,8 @@ msgid ""
 "SR1-32bits: Shift  a 32-bit value one bit right. MSB is filled with the "
 "input  in"
 msgstr ""
+"SR1-32bits: Desplazar un valor de 32-bits un bit a la derecha. El bit de "
+"mayor peso se rellena con la entrada in"
 
 #: translation.js:137
 #, fuzzy
