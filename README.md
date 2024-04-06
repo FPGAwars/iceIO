@@ -32,37 +32,48 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Blocks
 * **InOut**
-  * **ECP5**
-    * InOut-right
-    * InOut
-    * **02-bits**
+  * InOut-right
+  * InOut
+  * **02-bits**
+    * InOut-x2-right
+    * InOut-x2
+    * **Blocks**
       * InOut-x2-right
       * InOut-x2
-    * **03-bits**
-      * InOut-right-x3
-      * InOut-x3
-    * **04-bits**
+  * **03-bits**
+    * InOut-x3-right
+    * InOut-x3
+  * **04-bits**
+    * InOut-x4-right
+    * InOut-x4
+    * **Blocks**
       * InOut-right-x4
       * InOut-x4
-  * **ICE40**
-    * InOut-right
-    * InOut
-    * **02-bits**
-      * InOut-x2-right
-      * InOut-x2
-    * **03-bits**
-      * InOut-right-x3
-      * InOut-x3
-    * **04-bits**
-      * InOut-right-x4
-      * InOut-x4
+  * **08-bits**
+    * InOut-x8-right
+    * InOut-x8
+    * **Blocks**
+      * InOut-x8
+  * **16-bits**
+    * InOut-x16-right
+    * InOut-x16
+    * **Blocks**
+      * InOut-x16
 * **Pull-up**
+  * **ECP5**
+    * Pull-up-ecp5 x1
+    * pull-NONE-ecp5 x1
+    * pull-down-ecp5 x1
   * **ICE40**
     * Pull-up-x1
     * Pull-up-x2
     * pull-up-x03
     * pull-up-x04
     * pull-up-x08
+* **buffers&3state**
+  * **ECP5**
+    * out-buffer-complement-ecp5
+    * out-buffer-tristate-ecp5
 
 ## Examples
 * 00-Index
@@ -94,6 +105,10 @@ For installing and using this colection in Icestudio follow these steps:
     * 03-pull-up-x3
 * **TESTs**
   * **InOut**
+    * **InOut-right**
+    * **InOut-right-x02**
+      * **Alhambra-II**
+        * 01-button-LED
     * **InOut-right-x03**
       * **Alhambra-II**
         * 01-manual-testing
@@ -104,6 +119,14 @@ For installing and using this colection in Icestudio follow these steps:
         * 01-manual-testing
       * **ULX3S-12F**
         * 01-manual-testing
+    * **InOut-right-x08**
+      * **Alhambra-II**
+        * 01-manual-testing
+    * **InOut-right-x16**
+      * **Alhambra-II**
+        * 01-manual-testing
+      * **Alhambra-II**
+        * 01-button-LED
     * **InOut-x03**
       * **Alhambra-II**
         * 01-manual-testing
@@ -113,6 +136,12 @@ For installing and using this colection in Icestudio follow these steps:
       * **Alhambra-II**
         * 01-manual-testing
       * **ULX3S-12F**
+        * 01-manual-testing
+    * **InOut-x08**
+      * **Alhambra-II**
+        * 01-manual-testing
+    * **InOut-x16**
+      * **Alhambra-II**
         * 01-manual-testing
   * **Pull-up**
     * **Pull-up-x03**
