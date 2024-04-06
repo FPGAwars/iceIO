@@ -842,6 +842,9 @@ msgid ""
 "* ON: working (1)\n"
 "* OFF: Not working (0)"
 msgstr ""
+"Estado del circuito:  \n"
+"* ON: en funcionamiento(1)\n"
+"* OFF: Parado (0)"
 
 #: translation.js:187
 msgid ""
@@ -849,18 +852,21 @@ msgid ""
 "the number of cycles  \n"
 "to delay"
 msgstr ""
+"El contador ha alcanzado  \n"
+"el número de ciclos  \n"
+"a retrasar"
 
 #: translation.js:188
 msgid ""
 "Maximum count  \n"
 "reached"
 msgstr ""
+"Cuenta máxima  \n"
+"alcanzada"
 
 #: translation.js:189
-#, fuzzy
-#| msgid "Reg: 1-Bit register"
 msgid "32-bits register"
-msgstr "Reg: Registro de 1 bit"
+msgstr "Registro de 32-bits"
 
 #: translation.js:190
 msgid ""
@@ -868,34 +874,25 @@ msgid ""
 "and the cnt tic is received,  \n"
 "the register is reset to 0"
 msgstr ""
+"Si se alcanza la cuenta máxima  \n"
+"y se recibe un tic por cnt,  \n"
+"el registro se inicializa a 0"
 
 #: translation.js:191
 msgid "External reset"
-msgstr ""
+msgstr "Reset externo"
 
 #: translation.js:192
-#, fuzzy
-#| msgid ""
-#| "Initial default  \n"
-#| "value: 0"
 msgid "Initial value: 1"
-msgstr ""
-"Valor inicial  \n"
-"por defecto: 0"
+msgstr "Valor inicial : 1"
 
 #: translation.js:193
-#, fuzzy
-#| msgid ""
-#| "Initial default  \n"
-#| "value: 0"
 msgid "Initial value: 0"
-msgstr ""
-"Valor inicial  \n"
-"por defecto: 0"
+msgstr "Valor inicial: 0"
 
 #: translation.js:194
 msgid "Falling edge"
-msgstr ""
+msgstr "Flanco de bajada"
 
 #: translation.js:195
 msgid "Parameter: Initial value"
@@ -910,26 +907,20 @@ msgid "Output"
 msgstr "Salida"
 
 #: translation.js:198
-#, fuzzy
-#| msgid ""
-#| "# D Flip-Flop  \n"
-#| "\n"
-#| "It stores the input data that arrives at cycle n  \n"
-#| "Its output is shown in the cycle n+1"
 msgid ""
 "# D Flip-Flop  (system)\n"
 "\n"
 "It stores the input data that arrives at cycle n  \n"
 "Its output is shown in the cycle n+1"
 msgstr ""
-"# Biestable D  \n"
+"# Biestable D (del sistema) \n"
 "\n"
 "Almacena el dato de entrada que llega en el ciclo n  \n"
 "Su salida se muestra en el ciclo n+1"
 
 #: translation.js:199
 msgid "Not connected"
-msgstr ""
+msgstr "No conectado"
 
 #: translation.js:200 translation.js:209 translation.js:212 translation.js:214
 msgid "02-Blinking-LEDs-x2"
@@ -940,14 +931,9 @@ msgid "NOT gate (Verilog implementation)"
 msgstr "Puerta NOT (Implementación en verilog)"
 
 #: translation.js:202
-#, fuzzy
-#| msgid ""
-#| "InOut-x2-Right_ECP5:  2 bits Input-Output block for the ECP5 FPGA Family "
-#| "(Pin on the Right)"
 msgid "InOut-x2-Right:  2 bits Input-Output block  (Pin on the Right)"
 msgstr ""
-"InOut-x2-Right_ECP5::  Bloque de Entrada/Salida de 2 bits para la "
-"familiaECP5 de FPGAs (Pines en la derecha)"
+"InOut-x2-Right:  Bloque de Entrada/Salida de 2 bits (Pines en la derecha)"
 
 #: translation.js:203
 msgid ""
@@ -1177,10 +1163,8 @@ msgstr ""
 "El estado de los botones se muestra en los LEDs"
 
 #: translation.js:249
-#, fuzzy
-#| msgid "InOut-right-x03"
 msgid "InOut-right-x02"
-msgstr "InOut-right-x03"
+msgstr "InOut-right-x02"
 
 #: translation.js:250
 msgid "InOut-right-x03"
@@ -1191,16 +1175,12 @@ msgid "InOut-right-x04"
 msgstr "InOut-right-x04"
 
 #: translation.js:252
-#, fuzzy
-#| msgid "InOut-right-x03"
 msgid "InOut-right-x08"
-msgstr "InOut-right-x03"
+msgstr "InOut-right-x08"
 
 #: translation.js:253
-#, fuzzy
-#| msgid "InOut-right-x3"
 msgid "InOut-right-x16"
-msgstr "InOut-right-x3"
+msgstr "InOut-right-x16"
 
 #: translation.js:254
 msgid "InOut-x03"
@@ -1211,25 +1191,17 @@ msgid "InOut-x04"
 msgstr "InOut-x04"
 
 #: translation.js:256
-#, fuzzy
-#| msgid "InOut-x03"
 msgid "InOut-x08"
-msgstr "InOut-x03"
+msgstr "InOut-x08"
 
 #: translation.js:261
-#, fuzzy
-#| msgid ""
-#| "## Manual configuration of an input pin\n"
-#| "\n"
-#| "Example of how the IO block is used for configuring a pin as input  \n"
-#| "The input pin is shown on a LED"
 msgid ""
 "## Test: inout-right-x02 block\n"
 "\n"
 "Example of how the IO block is used for configuring a pin as input  \n"
 "The input pin is shown on a LED"
 msgstr ""
-"## Configuración manual de un pin de entrada\n"
+"## Test: inout-right-x02 block\n"
 "\n"
 "Ejemplo de cómo usar un bloque IO para configurar un pin como entrada  \n"
 "El pin de entrada se muestra en un LED"
@@ -1293,42 +1265,27 @@ msgstr ""
 "Los pines se configuran como entrada y se muestran en los LEDs"
 
 #: translation.js:284
-#, fuzzy
-#| msgid ""
-#| "Bus24-Split-16-8: Split the 24-bits bus into two buses of 16 and 8 wires"
 msgid "Bus8-Split-6-2: Split the 8-bits bus into two buses of 6 and 2 wires"
-msgstr ""
-"Bus24-Split-16-8: Separar el bus de 24-bits en dos buses de 16 6 8 cables"
+msgstr "Bus8-Split-6-2: Separar el bus de 8-bits en dos buses de 6 y 2 cables"
 
 #: translation.js:285
-#, fuzzy
-#| msgid ""
-#| "## Manual configuration of four input pins\n"
-#| "\n"
-#| "The pins are configured as inputs and shown on LEDs"
 msgid ""
 "## Manual configuration of 16 input pins\n"
 "\n"
 "The pins are configured as inputs and shown on LEDs"
 msgstr ""
-"## Configuración manual de cuatro pines de entrada\n"
+"## Configuración manual de 16 pines de entrada\n"
 "\n"
 "Los pines se configuran como entrada y se muestran en los LEDs"
 
 #: translation.js:288
-#, fuzzy
-#| msgid ""
-#| "## Manual configuration of an input pin\n"
-#| "\n"
-#| "Example of how the IO block is used for configuring a pin as input  \n"
-#| "The input pin is shown on a LED"
 msgid ""
 "## Test: inout-right block\n"
 "\n"
 "Example of how the IO block is used for configuring a pin as input  \n"
 "The input pin is shown on a LED"
 msgstr ""
-"## Configuración manual de un pin de entrada\n"
+"## Test: inout-right block\n"
 "\n"
 "Ejemplo de cómo usar un bloque IO para configurar un pin como entrada  \n"
 "El pin de entrada se muestra en un LED"
@@ -1350,37 +1307,26 @@ msgstr ""
 "FPGAs"
 
 #: translation.js:305
-#, fuzzy
-#| msgid ""
-#| "## Manual configuration of four input pins\n"
-#| "\n"
-#| "The pins are configured as inputs and shown on LEDs"
 msgid ""
 "## Manual configuration of 8 input pins\n"
 "\n"
 "The pins are configured as inputs and shown on LEDs"
 msgstr ""
-"## Configuración manual de cuatro pines de entrada\n"
+"## Configuración manual de 8 pines de entrada\n"
 "\n"
 "Los pines se configuran como entrada y se muestran en los LEDs"
 
 #: translation.js:309
-#, fuzzy
-#| msgid "Bus24-Join-8-16: Join the two buses into an 24-bits Bus"
 msgid "Bus16-Join-14-2: Join the two buses into a 16-bits Bus"
-msgstr "Bus24-Join-8-16: Juntar los dos buses en uno de 24-bits"
+msgstr "Bus16-Join-14-2: Juntar los dos buses en uno de 16-bits"
 
 #: translation.js:310
-#, fuzzy
-#| msgid "1-bit constant"
 msgid "14bits constant value: 0"
-msgstr "Constante 1 , de 1-bit"
+msgstr "Valor constante de 14 bits: 0"
 
 #: translation.js:311
-#, fuzzy
-#| msgid "Generic: 24-bits generic constant"
 msgid "Generic: 14-bits generic constant"
-msgstr "Generic: Constante genérica de 24-bits"
+msgstr "Generic: Constante genérica de 14-bits"
 
 #: translation.js:313
 msgid "Pull-up-x03"
