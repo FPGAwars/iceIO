@@ -79,24 +79,17 @@ msgid "InOut-x2"
 msgstr "InOut-x2"
 
 #: translation.js:26
-#, fuzzy
-#| msgid "InOut-x2_ECP5:  2 bits Input-Output block for the ECP5 FPGA Family"
 msgid "InOut-x2:  2 bits Input-Output block. Verilog implementation"
 msgstr ""
-"InOut-x2_ECP5:   Bloque de Entrada/Salida de 2 bits para la familia ECP5 de "
-"FPGAs"
+"InOut-x2:  Bloque de Entrada/Salida de 2 bits. Implementación en verilog"
 
 #: translation.js:28
-#, fuzzy
-#| msgid ""
-#| "InOut-x2-Right_ECP5:  2 bits Input-Output block for the ECP5 FPGA Family "
-#| "(Pin on the Right)"
 msgid ""
 "InOut-x2-Right:  2 bits Input-Output block  (Pin on the Right). Blocks "
 "implementation"
 msgstr ""
-"InOut-x2-Right_ECP5::  Bloque de Entrada/Salida de 2 bits para la "
-"familiaECP5 de FPGAs (Pines en la derecha)"
+"InOut-x2-Right:  Bloque de Entrada/Salida de 2 bits  (Pines en la derecha). "
+"Implementación con bloques"
 
 #: translation.js:29
 msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
@@ -107,80 +100,58 @@ msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
 msgstr "Bus2-Split-all: Separar el bus de 2 bits en dos cables"
 
 #: translation.js:32
-#, fuzzy
-#| msgid "InOut-x2-right"
 msgid "InOut-x3-right"
-msgstr "InOut-x2-right"
+msgstr "InOut-x3-right"
 
 #: translation.js:33
-#, fuzzy
-#| msgid ""
-#| "InOut-x3-Right_ECP5:  3 bits Input-Output block for the ECP5 FPGA Family "
-#| "(Pin on the Right)"
 msgid ""
 "InOut-x3-Right:  3 bits Input-Output block (Pin on the Right). Verilog "
 "implementation"
 msgstr ""
-"InOut-x3-Right_ECP5::  Bloque de Entrada/Salida de 3 bits para la "
-"familiaECP5 de FPGAs (Pines en la derecha)"
+"InOut-x3-Right: Bloque de Entrada/Salida de 3 bits (Pines en la derecha). "
+"Implementación en Verilog"
 
 #: translation.js:34
 msgid "InOut-x3"
 msgstr "InOut-x3"
 
 #: translation.js:35
-#, fuzzy
-#| msgid "InOut-x3_ECP5:  3 bits Input-Output block for the ECP5 FPGA Family"
 msgid "InOut-x3:  3 bits Input-Output block. Verilog implementation"
 msgstr ""
-"InOut-x3_ECP5:   Bloque de Entrada/Salida de 3 bits para la familia ECP5 de "
-"FPGAs"
+"InOut-x3:  Bloque de Entrada/Salida de 3 bits. Implementación en Verilog"
 
 #: translation.js:37
-#, fuzzy
-#| msgid "InOut-x2-right"
 msgid "InOut-x4-right"
-msgstr "InOut-x2-right"
+msgstr "InOut-x4-right"
 
 #: translation.js:38
-#, fuzzy
-#| msgid ""
-#| "InOut-x4-Right_ECP5:  4 bits Input-Output block for the ECP5 FPGA Family "
-#| "(Pin on the Right)"
 msgid ""
 "InOut-x4-Right:  4 bits Input-Output block (Pin on the Right). Verilog "
 "implementation"
 msgstr ""
-"InOut-x4-Right_ECP5:  Bloque de Entrada/Salida de 4 bits para la familiaECP5 "
-"de FPGAs (Pines en la derecha)"
+"InOut-x4-Right:  Bloque de Entrada/Salida de 4 bits (Pines en la derecha). "
+"Implementación en Verilog"
 
 #: translation.js:39 translation.js:45
 msgid "InOut-x4"
 msgstr "InOut-x4"
 
 #: translation.js:40
-#, fuzzy
-#| msgid "InOut-x4_ECP5:  4 bits Input-Output block for the ECP5 FPGA Family"
 msgid "InOut-x4:  4 bits Input-Output block. Verilog implementation"
 msgstr ""
-"InOut-x4_ECP5:   Bloque de Entrada/Salida de 4 bits para la familia ECP5 de "
-"FPGAs"
+"InOut-x4: Bloque de Entrada/Salida de 4 bits. Implementación en verilog"
 
 #: translation.js:41
 msgid "InOut-right-x4"
 msgstr "InOut-right-x4"
 
 #: translation.js:42
-#, fuzzy
-#| msgid ""
-#| "InOut-x4-Right_ECP5:  4 bits Input-Output block for the ECP5 FPGA Family "
-#| "(Pin on the Right)"
 msgid ""
 "InOut-x4-Right:  4 bits Input-Output block  (Pin on the Right). Blocks "
 "implementation"
 msgstr ""
-"InOut-x4-Right_ECP5:  Bloque de Entrada/Salida de 4 bits para la familiaECP5 "
-"de FPGAs (Pines en la derecha)"
+"InOut-x4-Right:  Bloque de Entrada/Salida de 4 bits  (Pines en la derecha). "
+"Implementación con bloques"
 
 #: translation.js:43
 msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
