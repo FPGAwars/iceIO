@@ -132,7 +132,7 @@ gettext('Alhambra-II');
 gettext('ULX3S-12F');
 gettext('01-Blinking-LED');
 gettext('Constant bit 1');
-gettext('Simplified-Heart-Hz-sys-32bits: periodic signal in Hertz. 50% of duty cycle');
+gettext('Simplified-Heart-Hz-sys-32bits: periodic signal in Hertz. Duty cicle of 50 percent');
 gettext('SR1-32bits: Shift  a 32-bit value one bit right. MSB is filled with the input  in');
 gettext('Bus32-Split-31-1: Split the 32-bits bus into two buses of 31 and 1 wires');
 gettext('Bus32-Join-1-31: Join the two buses into an 32-bits Bus');

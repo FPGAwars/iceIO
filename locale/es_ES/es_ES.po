@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-04-06 13:32+0200\n"
+"POT-Creation-Date: 2024-04-06 14:57+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -561,10 +561,12 @@ msgid "Constant bit 1"
 msgstr "Bit 1 constante"
 
 #: translation.js:135
-#, javascript-format
 msgid ""
-"Simplified-Heart-Hz-sys-32bits: periodic signal in Hertz. 50% of duty cycle"
+"Simplified-Heart-Hz-sys-32bits: periodic signal in Hertz. Duty cicle of 50 "
+"percent"
 msgstr ""
+"Simplified-Heart-Hz-sys-32bits: Señal periódica en Hercios. Ciclo de trabajo "
+"del 50 por ciento"
 
 #: translation.js:136
 msgid ""
@@ -575,29 +577,26 @@ msgstr ""
 "mayor peso se rellena con la entrada in"
 
 #: translation.js:137
-#, fuzzy
-#| msgid ""
-#| "Bus24-Split-16-8: Split the 24-bits bus into two buses of 16 and 8 wires"
 msgid ""
 "Bus32-Split-31-1: Split the 32-bits bus into two buses of 31 and 1 wires"
 msgstr ""
-"Bus24-Split-16-8: Separar el bus de 24-bits en dos buses de 16 6 8 cables"
+"Bus32-Split-31-1: Separar el bus de 32-bits en dos buses de 31 y 1 cables"
 
 #: translation.js:138
-#, fuzzy
-#| msgid "Bus24-Join-8-16: Join the two buses into an 24-bits Bus"
 msgid "Bus32-Join-1-31: Join the two buses into an 32-bits Bus"
-msgstr "Bus24-Join-8-16: Juntar los dos buses en uno de 24-bits"
+msgstr "Bus32-Join-1-31: Juntar los dos buses en uno de 32-bits"
 
 #: translation.js:139
 msgid "Unit-hz-32bits: hz to cycles converter"
-msgstr ""
+msgstr "Unit-hz-32bits: Conversor de Hz a ciclos"
 
 #: translation.js:140
 msgid ""
 "Heart-sys-zero-32bits: Generate a periodic signal of period T cycles. It "
 "starts at cycle 0. It never stops"
 msgstr ""
+"Heart-sys-zero-32bits: Generar una señal periódica de periodo de T ciclos. "
+"Comienza en el ciclo 0. No para nunca"
 
 #: translation.js:141
 msgid "OR2: Two bits input OR gate"
@@ -605,13 +604,11 @@ msgstr "OR2: PUerta OR de entradas de 2 bits"
 
 #: translation.js:142
 msgid "Sys-Delay-xN-32bits: The input tic is delayed N cycles"
-msgstr ""
+msgstr "Sys-Delay-xN-32bits: El tic de entrada se retrasa N ciclos"
 
 #: translation.js:143
-#, fuzzy
-#| msgid "24-bits Syscounter with reset"
 msgid "Counter-M-x32: 32-bits M module counter with reset"
-msgstr "Contador del sistema de 24 bits, con reset"
+msgstr "Counter-M-x32: Contador módulo M de 24-bits, con reset"
 
 #: translation.js:144
 msgid "Two bits input And gate"
