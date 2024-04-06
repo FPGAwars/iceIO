@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/58) |
 
 ## Blocks
 * **InOut**
@@ -161,7 +161,6 @@ For installing and using this colection in Icestudio follow these steps:
 * [Fernando Mosquera](https://github.com/benitoss)
 * [Joaquim](https://github.com/jojo535275?tab=repositories)
 * [Juan Gonzalez (Obijuan)](https://github.com/Obijuan)
-* [ Carlos Venegas Arrabé ](https://github.com/cavearr)
 
 
 -------
