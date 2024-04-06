@@ -24,7 +24,7 @@ msgstr "Pull-up"
 
 #: translation.js:12
 msgid "buffers&3state"
-msgstr ""
+msgstr "buffers&3state"
 
 #: translation.js:13
 msgid "02-bits"
@@ -39,56 +39,40 @@ msgid "04-bits"
 msgstr "04-bits"
 
 #: translation.js:16
-#, fuzzy
-#| msgid "02-bits"
 msgid "08-bits"
-msgstr "02-bits"
+msgstr "08-bits"
 
 #: translation.js:17
-#, fuzzy
-#| msgid "02-bits"
 msgid "16-bits"
-msgstr "02-bits"
+msgstr "16-bits"
 
 #: translation.js:18 translation.js:248
 msgid "InOut-right"
 msgstr "InOut-right"
 
 #: translation.js:19
-#, fuzzy
-#| msgid ""
-#| "InOut-Right_ECP5:  InOut block, with the pin on the right side, for ECP5 "
-#| "FPGA Family"
 msgid "InOut-Right:  InOut block, with the pin on the right side"
-msgstr ""
-"InOut-Right_ECP5: Bloque de Entrada/salida, con el pin en el lado derecho, "
-"para la familia ECP5 de FPGAs"
+msgstr "InOut-Right: Bloque de Entrada/salida, con el pin en el lado derecho"
 
 #: translation.js:21
-#, fuzzy
-#| msgid "InOut_ECP5:  Input-Output block for the ECP5 FPGA Family"
 msgid "InOut:  Input-Output block"
-msgstr "InOut_ECP5:   Bloque de Entrada/Salida para la familia ICE40 de FPGAs"
+msgstr "InOut:   Bloque de Entrada/Salida"
 
 #: translation.js:22 translation.js:36 translation.js:47 translation.js:56
 msgid "Blocks"
-msgstr ""
+msgstr "Bloques"
 
 #: translation.js:23 translation.js:27
 msgid "InOut-x2-right"
 msgstr "InOut-x2-right"
 
 #: translation.js:24
-#, fuzzy
-#| msgid ""
-#| "InOut-x2-Right_ECP5:  2 bits Input-Output block for the ECP5 FPGA Family "
-#| "(Pin on the Right)"
 msgid ""
 "InOut-x2-Right:  2 bits Input-Output block  (Pin on the Right). Verilog "
 "implementation"
 msgstr ""
-"InOut-x2-Right_ECP5::  Bloque de Entrada/Salida de 2 bits para la "
-"familiaECP5 de FPGAs (Pines en la derecha)"
+"InOut-x2-Right:  Bloque de Entrada/Salida de 2 bits (Pines en la derecha). "
+"Implementación en Verilog"
 
 #: translation.js:25 translation.js:31
 msgid "InOut-x2"
