@@ -378,7 +378,7 @@ msgstr "out-buffer-tristate-ecp5"
 
 #: translation.js:92
 msgid " Output Buffer with Tristate for ecp5"
-msgstr "Buffer de salida triestado para ECP5"
+msgstr " Buffer de salida triestado para ECP5"
 
 #: translation.js:93
 msgid "01-Input-config"
