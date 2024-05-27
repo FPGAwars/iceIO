@@ -103,56 +103,6 @@ For installing and using this colection in Icestudio follow these steps:
     * 01-pull-up-x1
     * 02-pull-up-x2
     * 03-pull-up-x3
-* **TESTs**
-  * **InOut**
-    * **InOut-right**
-    * **InOut-right-x02**
-      * **Alhambra-II**
-        * 01-button-LED
-    * **InOut-right-x03**
-      * **Alhambra-II**
-        * 01-manual-testing
-      * **ULX3S-12F**
-        * 01-manual-testing
-    * **InOut-right-x04**
-      * **Alhambra-II**
-        * 01-manual-testing
-      * **ULX3S-12F**
-        * 01-manual-testing
-    * **InOut-right-x08**
-      * **Alhambra-II**
-        * 01-manual-testing
-    * **InOut-right-x16**
-      * **Alhambra-II**
-        * 01-manual-testing
-      * **Alhambra-II**
-        * 01-button-LED
-    * **InOut-x03**
-      * **Alhambra-II**
-        * 01-manual-testing
-      * **ULX3S-12F**
-        * 01-manual-testing
-    * **InOut-x04**
-      * **Alhambra-II**
-        * 01-manual-testing
-      * **ULX3S-12F**
-        * 01-manual-testing
-    * **InOut-x08**
-      * **Alhambra-II**
-        * 01-manual-testing
-    * **InOut-x16**
-      * **Alhambra-II**
-        * 01-manual-testing
-  * **Pull-up**
-    * **Pull-up-x03**
-      * **Alhambra-II**
-        * 01-manual-testing
-    * **Pull-up-x04**
-      * **Alhambra-II**
-        * 01-manual-testing
-    * **Pull-up-x08**
-      * **Alhambra-II**
-        * 01-manual-testing
 
 ## Authors
 * [Salvador E. Tropea](https://github.com/set-soft)
